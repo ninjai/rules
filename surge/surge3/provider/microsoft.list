@@ -1,0 +1,18 @@
+# > Microsoft
+USER-AGENT,OneDrive*
+PROCESS-NAME,OneDrive*
+DOMAIN-KEYWORD,onedrive
+DOMAIN-SUFFIX,aspnetcdn.com
+DOMAIN-SUFFIX,azure.com
+DOMAIN-SUFFIX,azureedge.net
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,live.net
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,office.net
+DOMAIN-SUFFIX,onestore.ms
+DOMAIN-SUFFIX,skype.com
+DOMAIN-SUFFIX,xbox.com
+DOMAIN-SUFFIX,xboxlive.com
+DOMAIN-SUFFIX,xboxservices.com
