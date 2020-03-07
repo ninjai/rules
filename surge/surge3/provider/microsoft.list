@@ -1,6 +1,6 @@
 # > Microsoft
 USER-AGENT,OneDrive*
-PROCESS-NAME,OneDrive*
+PROCESS-NAME,OneDrive
 DOMAIN-KEYWORD,onedrive
 DOMAIN-SUFFIX,aspnetcdn.com
 DOMAIN-SUFFIX,azure.com

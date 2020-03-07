@@ -1,5 +1,5 @@
 # > Apple TV
-USER-AGENT,TV
+USER-AGENT,TV*
 PROCESS-NAME,TV
 DOMAIN,np-edge.itunes.apple.com
 DOMAIN,play-edge.itunes.apple.com
