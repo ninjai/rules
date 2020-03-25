@@ -4,6 +4,7 @@ USER-AGENT,AppStore*
 USER-AGENT,TestFlight*
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,apple.news
+DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,itunes.com
