@@ -1,0 +1,4 @@
+# > Apple News
+PROCESS-NAME,News
+USER-AGENT,AppleNews*
+DOMAIN-SUFFIX,apple.news
