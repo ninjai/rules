@@ -1,3 +1,6 @@
+#!name=Blued burn chatfiles
+#!desc=Perform MitM on Blued burn chatfiles.
+
 [Replica]
 keyword-filter-type = pattern
 keyword-filter = *burn-chatfiles*
