@@ -7,3 +7,7 @@ keyword-filter = *burn-chatfiles*
 
 [MITM]
 hostname = *bldimg*
+
+[Script]
+http-request ^https://burn-chatfiles.bldimg.com/* script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-burn-chat-files-cap-start.js
+http-response ^https://burn-chatfiles.bldimg.com/* script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-burn-chat-files-cap-stop.js
