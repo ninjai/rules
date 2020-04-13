@@ -1,0 +1,2 @@
+$surge.setHTTPCaptureEnabled(true);
+$done({});
