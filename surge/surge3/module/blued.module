@@ -1,0 +1,6 @@
+[Replica]
+keyword-filter-type = pattern
+keyword-filter = *burn-chatfiles*
+
+[MITM]
+hostname = *bldimg*
