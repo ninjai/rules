@@ -6,4 +6,4 @@ hostname = %APPEND% argo.blued.cn
 
 [Script]
 Blued = type=http-response,pattern=https:\/\/argo\.blued\.cn\/blued\/splash.*,requires-body=true,script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-block-ads.js
-Blued = type=http-response,pattern=https:\/\/argo\.blued\.cn\/blued\/users\/.*page.*,requires-body=true,script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-block-ads.js
+Blued = type=http-response,pattern=https:\/\/argo\.blued\.cn\/users\/.*page.*,requires-body=true,script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-block-ads.js
