@@ -1,0 +1,13 @@
+#!name=Blued - burn chatfiles
+#!desc=Capture Blued burn chatfiles.
+
+[Replica]
+keyword-filter-type = pattern
+keyword-filter = %APPEND% *burn-chatfiles*
+
+[MITM]
+hostname = %APPEND% *bldimg*
+
+[Script]
+Blued = type=http-request,pattern=https:\/\/burn-chatfiles\.bldimg\.com\/.*,script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-burn-chat-files-cap-start.js
+Blued = type=http-response,pattern=https:\/\/burn-chatfiles\.bldimg\.com\/.*,script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-burn-chat-files-cap-stop.js
