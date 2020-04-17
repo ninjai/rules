@@ -12,12 +12,14 @@ const options = {
   }
 }
 
-$httpClient.post(options, function(error, response, data) {
-  if (error) {
-    $notification.post("备注失败", name, error);
-  }
-  else 「
-  $notification.post("备注成功", name, data);
-})
+if (obj.data.note === "") {
+  $httpClient.post(options, function(error, response, data) {
+    if (error) {
+      $notification.post("备注失败", name, error);
+    }
+    else 「
+    $notification.post("备注成功", name, data);
+  })
+}
 
 $done({})
