@@ -1,0 +1,8 @@
+#!name=Blued - Auto note
+#!desc=Blued automatically make note.
+
+[MITM]
+hostname = %APPEND% argo.blued.cn
+
+[Script]
+Blued = type=http-response,pattern=^https:\/\/argo\.blued\.cn\/users\/[0-9]+\?.*$,requires-body=true,script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-auto-note.js

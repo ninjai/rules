@@ -1,4 +1,4 @@
-#!name=Blued - block ads
+#!name=Blued - Block ads
 #!desc=Blued block ads on startup.
 
 [MITM]
