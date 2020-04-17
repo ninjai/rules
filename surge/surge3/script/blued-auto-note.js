@@ -1,6 +1,11 @@
-const headers = $persistentStore.read('headersBlued');
+const headers = JSON.parse($persistentStore.read('headersBlued'))
+
+console.log(headers)
 
 const obj = JSON.parse($response.body)
+
+console.log(obj.data)
+
 const id = obj.data.uid
 const name = obj.data.name
 
