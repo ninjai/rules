@@ -2,7 +2,7 @@ const url = $request.url
 
 const id = url.match(/[0-9]{4,}/)[0]
 
-console.log(id)
+console.log(`${$script.name} ${id}`)
 
 if ($persistentStore.read('IdBlued') === null) {
   $persistentStore.write(id, 'IdBlued')

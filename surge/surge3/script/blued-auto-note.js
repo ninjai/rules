@@ -5,7 +5,7 @@ const obj = JSON.parse($response.body)
 const id = obj.data[0].uid
 const name = obj.data[0].name
 
-console.log(id)
+console.log(`${$script.name} ${id}`)
 
 if ($persistentStore.read('IdBlued')) {
   const options = {
