@@ -1,18 +1,14 @@
 const headers = JSON.parse($persistentStore.read('headersBlued'))
 
-console.log(headers)
-
 const obj = JSON.parse($response.body)
 
-console.log(obj.data)
+console.log(obj.data[0])
 
-console.log(typeof obj.data)
-
-const id = obj.data.uid
+const id = obj.data[0].uid
 
 console.log(id)
 
-const name = obj.data.name
+const name = obj.data[0].name
 
 console.log(name)
 
@@ -27,7 +23,7 @@ const options = {
 
 console.log(options)
 
-if (obj.data.note === '') {
+if (obj.data[0].note === '') {
   $httpClient.post(options, function(error, response, data) {
     if (error) {
       $notification.post('备注失败', name, error)
