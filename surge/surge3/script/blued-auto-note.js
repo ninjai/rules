@@ -1,16 +1,7 @@
 const headers = JSON.parse($persistentStore.read('headersBlued'))
-
 const obj = JSON.parse($response.body)
-
-console.log(obj.data[0])
-
 const id = obj.data[0].uid
-
-console.log(id)
-
 const name = obj.data[0].name
-
-console.log(name)
 
 const options = {
   'url': 'https://argo.blued.cn/users/21253364/notes',
@@ -20,8 +11,6 @@ const options = {
     'note': '拒-丑'
   }
 }
-
-console.log(options)
 
 if (obj.data[0].note === '') {
   $httpClient.post(options, function(error, response, data) {
