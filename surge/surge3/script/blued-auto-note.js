@@ -23,5 +23,8 @@ if ($persistentStore.read('IdBlued')) {
     })
   }
 }
+else {
+  $notification.post('请先获取ID')
+}
 
 $done({})
