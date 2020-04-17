@@ -7,7 +7,12 @@ const obj = JSON.parse($response.body)
 console.log(obj.data)
 
 const id = obj.data.uid
+
+console.log(id)
+
 const name = obj.data.name
+
+console.log(name)
 
 const options = {
   'url': 'https://argo.blued.cn/users/21253364/notes',
