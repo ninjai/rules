@@ -8,4 +8,4 @@ hostname = %APPEND% argo.blued.cn
 blued-get-id = type=http-request,pattern=^https:\/\/argo\.blued\.cn\/users\/[0-9]+\/more\/.*$,script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-get-id.js
 blued-get-headers = type=http-request,pattern=^https:\/\/argo\.blued\.cn\/users\/call\/state\?.*$,script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-get-headers.js
 blued-auto-note = type=http-response,pattern=^https:\/\/argo\.blued\.cn\/users\/[0-9]+\?.*$,requires-body=true,script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-auto-note.js
-# blued-get-headers = type=http-request,pattern=^https:\/\/argo\.blued\.cn\/users\/[0-9]+\?.*$,script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-get-headers.js
+// blued-get-headers = type=http-request,pattern=^https:\/\/argo\.blued\.cn\/users\/[0-9]+\?.*$,script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-get-headers.js
