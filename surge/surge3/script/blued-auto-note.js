@@ -18,13 +18,13 @@ if ($persistentStore.read('IdBlued')) {
       if (error) {
         $notification.post('备注失败', name, error)
       } else {
-        $notification.post('备注成功', name)
+        $notification.post('备注成功', '', name)
       }
     })
   }
 }
 else {
-  $notification.post('请先获取ID')
+  $notification.post('请先获取ID', '', '')
 }
 
 $done({})
