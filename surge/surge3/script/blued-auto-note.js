@@ -1,3 +1,5 @@
+$notification.post('备注脚本开始运行', '', '')
+
 const headers = JSON.parse($persistentStore.read('headersBlued'))
 const obj = JSON.parse($response.body)
 const id = obj.data[0].uid
