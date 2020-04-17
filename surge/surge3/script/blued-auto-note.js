@@ -6,6 +6,8 @@ const obj = JSON.parse($response.body)
 
 console.log(obj.data)
 
+console.log(typeof obj.data)
+
 const id = obj.data.uid
 
 console.log(id)
