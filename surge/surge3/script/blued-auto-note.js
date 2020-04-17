@@ -1,5 +1,6 @@
-const headers = $request.headers
-const obj = $response.body
+const headers = $persistentStore.write("headersBlued");
+
+const obj = JSON.parse($response.body)
 const id = obj.data.uid
 const name = obj.data.name
 
@@ -12,13 +13,15 @@ const options = {
   }
 }
 
+console.log(options)
+
 if (obj.data.note === "") {
   $httpClient.post(options, function(error, response, data) {
     if (error) {
-      $notification.post("备注失败", name, error);
+      $notification.post("备注失败", name, error)
+    } else {
+      $notification.post("备注成功", name, data)
     }
-    else 「
-    $notification.post("备注成功", name, data);
   })
 }
 
