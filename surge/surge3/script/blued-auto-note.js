@@ -1,4 +1,4 @@
-const headers = $persistentStore.write('headersBlued');
+const headers = $persistentStore.read('headersBlued');
 
 const obj = JSON.parse($response.body)
 const id = obj.data.uid
