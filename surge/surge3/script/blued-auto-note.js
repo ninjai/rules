@@ -18,9 +18,9 @@ if (typeof $response != 'undefined') {
 
       $httpClient.post(options, function(error, response, data) {
         if (error) {
-          $notification.post('备注失败', name, error)
+          $persistentStore.read('NotificaitonBlued') === 'open' && $notification.post('备注失败', name, error)
         } else {
-          $notification.post('备注成功', '', name)
+          $persistentStore.read('NotificaitonBlued') === 'open' && $notification.post('备注成功', '', name)
         }
       })
     }
@@ -29,6 +29,5 @@ if (typeof $response != 'undefined') {
     }
   }
 }
-
 
 $done({})  
