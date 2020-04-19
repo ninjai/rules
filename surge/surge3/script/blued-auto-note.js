@@ -4,6 +4,22 @@ if (typeof $response != 'undefined') {
 
   if (obj.data[0].note === '') {
     if ($persistentStore.read('IdBlued')) {
+
+      if ($persistentStore.read('ViewCountBlued') === null) {
+        let obj = {
+          'count': 1,
+          'startTime': new Date()
+        }
+        $persistentStore.write(JSON.stringify(obj), 'ViewCountBlued')
+      } else {
+        let obj = JSON.parse($persistentStore.read('ViewCountBlued'))
+        obj = { ...obj, ...{ 'count': ++obj.count } }
+        $persistentStore.write(JSON.stringify(obj), 'ViewCountBlued')
+        if (count % 100 === 0) {
+          $notification.post('累计浏览人数', '', `自${obj.startTime}以来共浏览了${obj.count}人`)
+        }
+      }
+
       const id = obj.data[0].uid
       const name = obj.data[0].name
       const headers = JSON.parse($persistentStore.read('headersBlued'))
@@ -23,27 +39,18 @@ if (typeof $response != 'undefined') {
         } else {
           $persistentStore.read('NotificaitonBlued') === 'open' && $notification.post('备注成功', '', name)
         }
+        $done({})
       })
     }
     else {
       $notification.post('请先获取ID', '', '')
-    }
-
-    if ($persistentStore.read('ViewCountBlued') === null) {
-      let obj = {
-        'count': 1,
-        'startTime': new Date()
-      }
-      $persistentStore.write(JSON.stringify(obj), 'ViewCountBlued')
-    } else {
-      let obj = JSON.parse($persistentStore.read('ViewCountBlued'))
-      obj = { ...obj, ...{ 'count': ++obj.count } }
-      $persistentStore.write(JSON.stringify(obj), 'ViewCountBlued')
-      if (count % 100 === 0) {
-        $notification.post('累计浏览人数', '', `自${obj.startTime}以来共浏览了${obj.count}人`)
-      }
+      $done({})
     }
   }
+  else {
+    $done({})
+  }
 }
-
-$done({})
+else {
+  $done({})
+}
