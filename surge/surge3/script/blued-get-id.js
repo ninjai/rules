@@ -21,8 +21,11 @@ if (typeof $request != 'undefined') {
   }
   else {
     $persistentStore.read('NotificaitonBlued') === 'open' && $notification.post('欢迎回来', '', id)
-    $notification.post('累计浏览人数', '', `自${obj.startTime}以来共浏览了${obj.count}人`)
+    if ($persistentStore.read('ViewCountBlued') != null) {
+      const obj = $persistentStore.read('ViewCountBlued')
+      $notification.post('累计浏览人数', '', `自${obj.startTime}以来共浏览了${obj.count}人`)
+    }
   }
 }
 
-$done({})
+$done({})    
