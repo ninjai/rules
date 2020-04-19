@@ -32,7 +32,7 @@ if (typeof $response != 'undefined') {
     if ($persistentStore.read('ViewCountBlued') === null) {
       let obj = {
         'count': 1,
-        'startTime': new Date('2015-03-25T12:00:00+08:00')
+        'startTime': new Date()
       }
       $persistentStore.write(JSON.stringify(obj), 'ViewCountBlued')
     } else {
