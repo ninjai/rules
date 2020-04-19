@@ -23,7 +23,8 @@ if (typeof $request != 'undefined') {
     $persistentStore.read('NotificaitonBlued') === 'open' && $notification.post('欢迎回来', '', id)
     if ($persistentStore.read('ViewCountBlued') != null) {
       let obj = JSON.parse($persistentStore.read('ViewCountBlued'))
-      $notification.post('累计浏览人数', '', `自${obj.startTime}以来共浏览了${obj.count}人`)
+      let startTime = new Date(obj.startTime)
+      $notification.post('累计浏览人数', '', `自${startTime.toLocaleString('zh-CN')}以来共浏览了${obj.count}人`)
     }
   }
 }
