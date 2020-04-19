@@ -38,7 +38,7 @@ if (typeof $response != 'undefined') {
     } else {
       let obj = JSON.parse($persistentStore.read('ViewCountBlued'))
       let count = obj.count
-      let obj = { ...obj, ...{ 'count': ++count } }
+      obj = { ...obj, ...{ 'count': ++count } }
       $persistentStore.write(JSON.stringify(obj), 'ViewCountBlued')
       if (count % 100 === 0) {
         $notification.post('累计浏览人数', '', `自${obj.startTime}以来共浏览了${obj.count}人`)
