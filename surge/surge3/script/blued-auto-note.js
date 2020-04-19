@@ -28,12 +28,15 @@ if (typeof $response != 'undefined') {
     else {
       $notification.post('请先获取ID', '', '')
     }
+
     if ($persistentStore.read('ViewCountBlued') === null) {
       let count = 1
       $persistentStore.write(count.toString(), 'ViewCountBlued')
+      console.log('unchanged')
     } else {
       let count = Number.parseInt($persistentStore.read('ViewCountBlued'), 10)
       $persistentStore.write((count++).toString(), 'ViewCountBlued')
+      console.log(count)
       if (count % 100 === 0) {
         $notification.post('累计浏览人数', '', count.toString())
       }
