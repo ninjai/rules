@@ -1,5 +1,15 @@
 if (typeof $response != 'undefined') {
   const obj = JSON.parse($response.body)
+  if ($persistentStore.read('ViewCountBlued') === null) {
+    let count = 1
+    $persistentStore.write(count.toString(), 'ViewCountBlued')
+  } else {
+    let count = Number.parseInt($persistentStore.read('ViewCountBlued'), 10)
+    $persistentStore.write((count++).toString(), 'ViewCountBlued')
+    if (count % 100 === 0) {
+      $notification.post('累计浏览人数', '', count.toString())
+    }
+  }
 
   if (obj.data[0].note === '') {
     if ($persistentStore.read('IdBlued')) {
