@@ -39,18 +39,11 @@ if (typeof $response != 'undefined') {
         } else {
           $persistentStore.read('NotificaitonBlued') === 'open' && $notification.post('备注成功', '', name)
         }
-        $done({})
       })
     }
     else {
       $notification.post('请先获取ID', '', '')
-      $done({})
     }
   }
-  else {
-    $done({})
-  }
 }
-else {
-  $done({})
-}
+$done({})
