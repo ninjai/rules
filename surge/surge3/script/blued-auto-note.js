@@ -30,11 +30,16 @@ if (typeof $response != 'undefined') {
     }
 
     if ($persistentStore.read('ViewCountBlued') === null) {
-      let count = 1
-      $persistentStore.write(count.toString(), 'ViewCountBlued')
+      let obj = {
+        'count': 1,
+        'startTime': new Date('2015-03-25T12:00:00+08:00')
+      }
+      $persistentStore.write(JSON.stringify(obj), 'ViewCountBlued')
     } else {
-      let count = Number.parseInt($persistentStore.read('ViewCountBlued'), 10)
-      $persistentStore.write(++count.toString(), 'ViewCountBlued')
+      let obj = JSON.parse($persistentStore.read('ViewCountBlued'))
+      let count = obj.count
+      let obj = { ...obj, ...{ 'count': ++count } }
+      $persistentStore.write(JSON.stringify(obj), 'ViewCountBlued')
       if (count % 100 === 0) {
         $notification.post('累计浏览人数', '', count.toString())
       }
