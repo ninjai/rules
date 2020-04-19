@@ -32,12 +32,9 @@ if (typeof $response != 'undefined') {
     if ($persistentStore.read('ViewCountBlued') === null) {
       let count = 1
       $persistentStore.write(count.toString(), 'ViewCountBlued')
-      console.log('unchanged')
     } else {
       let count = Number.parseInt($persistentStore.read('ViewCountBlued'), 10)
-      count = count++
-      $persistentStore.write(count.toString(), 'ViewCountBlued')
-      console.log(count)
+      $persistentStore.write(++count.toString(), 'ViewCountBlued')
       if (count % 100 === 0) {
         $notification.post('累计浏览人数', '', count.toString())
       }
