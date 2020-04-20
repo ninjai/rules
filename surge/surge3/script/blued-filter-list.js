@@ -1,5 +1,5 @@
 function filterList(data) {
-  data.filter(item => item.note === '')
+  let data = data.filter(item => item.note === '')
   data.filter(item => item.is_invisible_half == 0)
 
   return data
