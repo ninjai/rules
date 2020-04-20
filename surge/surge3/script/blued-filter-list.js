@@ -5,17 +5,17 @@ function filterList(data) {
 function listGetMore(start) {
   let data = []
   let url = $request.url.match(/(^.*)start\=(\d+)(.*$)/)
-  let start = start + Number.parseInt(url[2], 10)
+  start = start + Number.parseInt(url[2], 10)
   url = `${url[1]}start=${start}${url[3]}`
   $httpClient.get({ url }, (error, response, data) => {
     if (error) {
       $notification.post('获取更多失败', '', error)
+      return []
     } else {
       data = JSON.parse(data)
+      return filterList(data.data)
     }
   })
-
-  return filterList(data.data)
 }
 
 if (typeof $response != 'undefined') {
