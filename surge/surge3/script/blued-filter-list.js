@@ -7,7 +7,7 @@ function listGetMore(start) {
   let url = $request.url.match(/(^https:\/\/)([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)(\/users\?filters.*)start\=(\d+)(.*$)/)
   start = start + Number.parseInt(url[2], 10)
   url = `${url[1]}argo.blued.cn${url[3]}start=${start}${url[5]}`
-  $httpClient.get({ url }, (error, response, data) => {
+  return () => $httpClient.get({ url }, (error, response, data) => {
     if (error) {
       $notification.post('获取更多失败', '', error)
       console.log(url)
