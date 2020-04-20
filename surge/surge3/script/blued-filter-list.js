@@ -32,11 +32,11 @@ if (typeof $response != 'undefined') {
   let obj = JSON.parse($response.body)
   if (obj.data) {
     obj.data = filterList(obj.data)
-    let n = 1
-    while (obj.data.length < 10) {
-      listGetMore(60 * n).then((data) => { obj.data = [...obj.data, ...data] })
-      n++
-    }
+    // let n = 1
+    // while (obj.data.length < 10) {
+    //   listGetMore(60 * n).then((data) => { obj.data = [...obj.data, ...data] })
+    //   n++
+    // }
   }
   if (obj.extra) {
     if (obj.extra.adms) {
