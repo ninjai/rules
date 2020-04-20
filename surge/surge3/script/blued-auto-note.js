@@ -7,9 +7,11 @@ if (typeof $response != 'undefined') {
 
       const id = obj.data[0].uid
       const name = obj.data[0].name
+      const headers = JSON.parse($persistentStore.read('headersBlued'))
 
       const options = {
         'url': `https://argo.blued.cn/users/${$persistentStore.read('IdBlued')}/notes`,
+        headers,
         'body': {
           'uid': id,
           'note': '拒-丑'

@@ -7,7 +7,9 @@ const listGetMore = start => {
     let url = $request.url.match(/(^https:\/\/)([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)(\/users\?filters.*)start\=(\d+)(.*$)/)
     start = start + Number.parseInt(url[2], 10)
     url = `${url[1]}argo.blued.cn${url[3]}start=${start}${url[5]}`
-    $httpClient.get({ url }, (error, response, data) => {
+    const headers = JSON.parse($persistentStore.read('headersBlued'))
+
+    $httpClient.get({ url, headers }, (error, response, data) => {
       if (error) {
         $notification.post('获取更多失败', '', error)
         console.log(url)
@@ -30,11 +32,11 @@ if (typeof $response != 'undefined') {
   let obj = JSON.parse($response.body)
   if (obj.data) {
     obj.data = filterList(obj.data)
-    // let n = 1
-    // while (obj.data.length < 10) {
-    //   listGetMore(60 * n).then((data) => { obj.data = [...obj.data, ...data] })
-    //   n++
-    // }
+    let n = 1
+    while (obj.data.length < 10) {
+      listGetMore(60 * n).then((data) => { obj.data = [...obj.data, ...data] })
+      n++
+    }
   }
   if (obj.extra) {
     if (obj.extra.adms) {
