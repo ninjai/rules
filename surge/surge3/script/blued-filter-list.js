@@ -10,10 +10,12 @@ function listGetMore(start) {
   $httpClient.get({ url }, (error, response, data) => {
     if (error) {
       $notification.post('获取更多失败', '', error)
+      console.log(url)
       return []
     } else {
       let obj = JSON.parse(data)
       if (obj.data) {
+        $notification.post('获取更多成功', '', '')
         return filterList(data)
       }
       else {
