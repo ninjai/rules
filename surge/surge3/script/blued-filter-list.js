@@ -12,8 +12,13 @@ function listGetMore(start) {
       $notification.post('获取更多失败', '', error)
       return []
     } else {
-      data = JSON.parse(data)
-      return filterList(data.data)
+      let obj = JSON.parse(data)
+      if (obj.data) {
+        return filterList(data)
+      }
+      else {
+        return []
+      }
     }
   })
 }
@@ -22,11 +27,11 @@ if (typeof $response != 'undefined') {
   let obj = JSON.parse($response.body)
   if (obj.data) {
     obj.data = filterList(obj.data)
-    // let n = 1
-    // while (obj.data.length < 10) {
-    //   obj.data = [...obj.data, ...listGetMore(60 * n)]
-    //   n++
-    // }
+    let n = 1
+    while (obj.data.length < 10) {
+      obj.data = [...obj.data, ...listGetMore(60 * n)]
+      n++
+    }
   }
   if (obj.extra) {
     if (obj.extra.adms) {
