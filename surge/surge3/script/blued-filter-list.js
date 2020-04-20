@@ -5,9 +5,10 @@ if (typeof $response != 'undefined') {
   }
   if (obj.extra) {
     if (obj.extra.adms) {
-      if (obj.extra.adms.data) {
-        obj.extra.adms.data.length = 0
-      }
+      obj.extra.adms.length = 0
+    }
+    if (obj.extra.adms_user) {
+      obj.extra.adms_user.length = 0
     }
   }
   $done({ body: JSON.stringify(obj) })
