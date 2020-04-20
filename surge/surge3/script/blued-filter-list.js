@@ -1,8 +1,5 @@
 function filterList(data) {
-  let data = data.filter(item => item.note === '')
-  data.filter(item => item.is_invisible_half == 0)
-
-  return data
+  return data.filter(item => item.note === '' && item.is_invisible_half === 0)
 }
 
 function listGetMore(start) {
