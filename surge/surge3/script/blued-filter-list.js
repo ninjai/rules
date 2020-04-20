@@ -25,11 +25,11 @@ if (typeof $response != 'undefined') {
   let obj = JSON.parse($response.body)
   if (obj.data) {
     obj.data = filterList(obj.data)
-    let n = 1
-    while (obj.data.length < 10) {
-      obj.data = [...obj.data, ...listGetMore(60 * n)]
-      n++
-    }
+    // let n = 1
+    // while (obj.data.length < 10) {
+    //   obj.data = [...obj.data, ...listGetMore(60 * n)]
+    //   n++
+    // }
   }
   if (obj.extra) {
     if (obj.extra.adms) {
