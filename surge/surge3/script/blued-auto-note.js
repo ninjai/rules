@@ -7,11 +7,9 @@ if (typeof $response != 'undefined') {
 
       const id = obj.data[0].uid
       const name = obj.data[0].name
-      const headers = JSON.parse($persistentStore.read('headersBlued'))
 
       const options = {
         'url': `https://argo.blued.cn/users/${$persistentStore.read('IdBlued')}/notes`,
-        'headers': headers,
         'body': {
           'uid': id,
           'note': '拒-丑'
@@ -20,7 +18,7 @@ if (typeof $response != 'undefined') {
 
       $httpClient.post(options, function(error, response, data) {
         if (error) {
-          $persistentStore.read('NotificaitonBlued') === 'open' && $notification.post('备注失败', name, error)
+          $notification.post('备注失败', name, error)
         } else {
           $persistentStore.read('NotificaitonBlued') === 'open' && $notification.post('备注成功', '', name)
         }
