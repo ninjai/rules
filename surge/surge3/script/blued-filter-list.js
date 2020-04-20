@@ -31,7 +31,7 @@ if (typeof $response != 'undefined') {
     obj.data = filterList(obj.data)
     let n = 1
     while (obj.data.length < 10) {
-      obj.data = [...obj.data, ...listGetMore(60 * n)]
+      listGetMore(60 * n).then((data) => { obj.data = [...obj.data, ...data] })
       n++
     }
   }
