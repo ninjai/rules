@@ -12,15 +12,15 @@ const listGetMore = start => {
       if (error) {
         $notification.post('获取更多失败', '', error)
         console.log(url)
-        return []
+        resolve([])
       } else {
         let obj = JSON.parse(data)
         if (obj.data) {
           $notification.post('获取更多成功', '', '')
-          return filterList(data)
+          resolve(filterList(data))
         }
         else {
-          return []
+          resolve([])
         }
       }
     })
