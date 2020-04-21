@@ -11,6 +11,7 @@ async function listGetMore(start) {
   return await $httpClient.get({ url, headers }, (error, response, data) => {
     if (error) {
       $notification.post('获取更多失败', '', error)
+      return []
     } else {
       let obj = JSON.parse(data)
       if (obj.data) {
@@ -18,7 +19,6 @@ async function listGetMore(start) {
         return filterList(obj.data);
       }
     }
-    return []
   })
 }
 
