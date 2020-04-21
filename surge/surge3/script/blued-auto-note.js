@@ -1,6 +1,9 @@
 if (typeof $response != 'undefined') {
   const obj = JSON.parse($response.body)
 
+  if (obj.data.ads_banner) {
+    obj.data.ads_banner.length = 0
+  }
 
   if (obj.data[0].note === '') {
     if ($persistentStore.read('IdBlued')) {
@@ -48,4 +51,4 @@ if (typeof $response != 'undefined') {
   }
 }
 
-$done({})
+$done({ body: JSON.stringify(obj) })
