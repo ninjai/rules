@@ -1,8 +1,8 @@
 if (typeof $response != 'undefined') {
   const obj = JSON.parse($response.body)
 
-  if (obj.data.ads_banner) {
-    obj.data.ads_banner.length = 0
+  if (obj.data[0].ads_banner) {
+    obj.data[0].ads_banner.length = 0
   }
 
   if (obj.data[0].note === '') {
