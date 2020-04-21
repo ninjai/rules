@@ -49,6 +49,10 @@ if (typeof $response != 'undefined') {
       $notification.post('累计浏览人数', '', `自${startTime.toLocaleString('zh-CN')}以来共浏览了${obj.count}人`)
     }
   }
+
+  $done({ body: JSON.stringify(obj) })
+}
+else {
+  $done({})
 }
 
-$done({ body: JSON.stringify(obj) })
