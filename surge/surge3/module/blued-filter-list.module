@@ -2,7 +2,7 @@
 #!desc=Blued filter list by note.
 
 [MITM]
-hostname = %APPEND% 106.75.55.121, 106.75.33.126
+hostname = %APPEND% argo.blued.cn, 106.75.55.121, 106.75.33.126
 
 [Script]
 Blued = type=http-response,pattern=^https:\/\/argo\.blued\.cn\/users\?filters.*$,requires-body=true,script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-filter-list.js
