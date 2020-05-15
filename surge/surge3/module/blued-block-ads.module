@@ -8,6 +8,5 @@ hostname = %APPEND% argo.blued.cn:0, 106.75.55.121, 106.75.33.126, 106.75.70.21
 Blued = type=http-response,pattern=^https:\/\/argo\.blued\.cn\/blued\/splash.*$,requires-body=true,script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-block-ads.js
 Blued = type=http-response,pattern=^https:\/\/argo\.blued\.cn\/users\/.*page.*$,requires-body=true,script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-block-ads.js
 
-# https://argo.blued.cn/blued/splash?conn_type=wifi&exclude_id=*&latitude=*&longitude=*
 Blued = type=http-response,pattern=^https:\/\/[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+\/blued\/splash.*$,requires-body=true,script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-block-ads.js
 Blued = type=http-response,pattern=^https:\/\/[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+\/users\/.*page.*$,requires-body=true,script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-block-ads.js

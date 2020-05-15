@@ -7,5 +7,4 @@ hostname = %APPEND% argo.blued.cn:0, 106.75.55.121, 106.75.33.126, 106.75.70.21
 [Script]
 Blued = type=http-response,pattern=^https:\/\/argo\.blued\.cn\/users\?filters.*$,requires-body=true,script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-filter-list.js
 
-# https://106.75.55.121/users?filters={"online":false,"weight":"58-88","condition":true,"height":"158-188","age":"18-38","is_vip":false,"geo_reach":"0-max","has_avatar":false,"time_span":"0-max"}&from=list&latitude=*&limit=60&longitude=*&sort_by=online&start=0
 Blued = type=http-response,pattern=^https:\/\/[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+\/users\?filters.*$,requires-body=true,script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-filter-list.js

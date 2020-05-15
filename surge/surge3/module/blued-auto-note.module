@@ -10,7 +10,5 @@ Blued = type=http-request,pattern=^https:\/\/argo\.blued\.cn\/users\/[0-9]+\?.*$
 Blued = type=http-response,pattern=^https:\/\/argo\.blued\.cn\/users\/[0-9]+\?.*$,requires-body=true,script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-auto-note.js
 
 Blued = type=http-request,pattern=^https:\/\/[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+\/users\/[0-9]+\/more\/.*$,script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-get-id.js
-
-# https://106.75.55.121/users/48002167?is_living=false&from=online&is_shadow=0&is_vip_page=0
 Blued = type=http-request,pattern=^https:\/\/[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+\/users\/[0-9]+\?.*$,script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-get-headers.js
 Blued = type=http-response,pattern=^https:\/\/[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+\/users\/[0-9]+\?.*$,requires-body=true,script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-auto-note.js
