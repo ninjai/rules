@@ -2,8 +2,7 @@
 #!desc=Blued block ads on startup.
 
 [MITM]
-tcp-connection = true
-hostname = %APPEND% argo.blued.cn:0, 106.75.55.121, 106.75.33.126, 106.75.70.21
+hostname = %APPEND% argo.blued.cn, 106.75.55.121, 106.75.33.126, 106.75.70.21
 
 [Script]
 Blued = type=http-response,pattern=^https:\/\/argo\.blued\.cn\/blued\/splash.*$,requires-body=true,script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-block-ads.js
