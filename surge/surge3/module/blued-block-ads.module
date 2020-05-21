@@ -5,8 +5,8 @@
 hostname = %APPEND% argo.blued.cn, 106.75.55.121, 106.75.33.126, 106.75.70.21
 
 [Script]
-Blued = type=http-response,pattern=^https:\/\/argo\.blued\.cn\/blued\/splash.*$,requires-body=true,script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-block-ads.js
-Blued = type=http-response,pattern=^https:\/\/argo\.blued\.cn\/users\/.*page.*$,requires-body=true,script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-block-ads.js
+http-response ^https:\/\/argo\.blued\.cn\/blued\/splash.*$ script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-block-ads.js,requires-body=true
+http-response ^https:\/\/argo\.blued\.cn\/users\/.*page.*$ script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-block-ads.js,requires-body=true
 
-Blued = type=http-response,pattern=^https:\/\/[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+\/blued\/splash.*$,requires-body=true,script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-block-ads.js
-Blued = type=http-response,pattern=^https:\/\/[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+\/users\/.*page.*$,requires-body=true,script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-block-ads.js
+http-response ^https:\/\/[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+\/blued\/splash.*$ script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-block-ads.js,requires-body=true
+http-response ^https:\/\/[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+\/users\/.*page.*$ script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-block-ads.js,requires-body=true
