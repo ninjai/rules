@@ -6,4 +6,4 @@ keyword-filter-type = pattern
 keyword-filter = %APPEND% *burn-chatfiles*
 
 [MITM]
-hostname = %APPEND% *bldimg*
+hostname = %APPEND% *.bldimg.com
