@@ -2,6 +2,7 @@
 #!desc=Blued block ads on startup.
 
 [MITM]
+tcp-connection = true
 hostname = %APPEND% argo.blued.cn:0, 106.75.55.121, 106.75.33.126, 106.75.70.21
 
 [Script]

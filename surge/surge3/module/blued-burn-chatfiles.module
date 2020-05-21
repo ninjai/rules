@@ -6,4 +6,5 @@ keyword-filter-type = pattern
 keyword-filter = %APPEND% *burn-chatfiles*
 
 [MITM]
+tcp-connection = true
 hostname = %APPEND% *bldimg*
