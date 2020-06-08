@@ -1,0 +1,5 @@
+#!name=MITM - Exclude Apps
+#!desc=Exlude apps domains can't be inspected.
+
+[MITM]
+hostname = %APPEND% -*.air-matters.com, -*.facebook.com, -*grindr.mobi, -*.instagram.com, -*.scruffapp.com, -*.tantanapp.com, -*.twitter.com

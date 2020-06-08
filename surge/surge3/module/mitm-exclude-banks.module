@@ -1,0 +1,5 @@
+#!name=MITM - Exclude Banks
+#!desc=Exlude banks domain.
+
+[MITM]
+hostname = %APPEND% -*.webank.com

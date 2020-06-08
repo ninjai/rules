@@ -7,4 +7,4 @@ hide-udp = false
 
 [MITM]
 tcp-connection = true
-hostname = -*.air-matters.com, -*.apple.com, -*.crashlytics.com, -*.facebook.com, -*grindr.mobi, -*.icloud.com, -*.instagram.com, -*.mzstatic.com, -*.scruffapp.com, -*.tantanapp.com, -*.twitter.com, -*.webank.com, *
+hostname = -*.apple.com, -*.crashlytics.com, -*.icloud.com, -*.mzstatic.com, *
