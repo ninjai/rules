@@ -6,3 +6,5 @@ hostname = %APPEND% *.blued.cn
 
 [Script]
 http-response ^https:\/\/argo\.blued\.cn\/users\?filters.*$ script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-filter-list.js,requires-body=true
+
+http-response ^https:\/\/[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+\/users\?filters.*$ script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-filter-list.js,requires-body=true
