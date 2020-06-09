@@ -7,4 +7,4 @@ hide-udp = false
 
 [MITM]
 tcp-connection = true
-hostname = -*.apple.com, -*.crashlytics.com, -*.icloud.com, -*.mzstatic.com, *
+hostname = %APPEND% -*.apple.com, -*.crashlytics.com, -*.icloud.com, -*.mzstatic.com, *
