@@ -1,5 +1,17 @@
+const keyword = $persistentStore.read('filterBlued') !== null ? $persistentStore.read('filterBlued') : ''
+
 function filterList(data) {
-  return data.filter(item => item.note === '' && item.is_invisible_half === 0)
+  switch (keyword) {
+    case 'normal': {
+      return data.filter(item => item.note === '' && item.is_invisible_half === 0)
+    }
+    case 'general': {
+      return data.filter(item => item.note !== '拒-丑' && item.is_invisible_half === 0)
+    }
+    default: {
+      return data.filter(item => item.note === keyword && item.is_invisible_half === 0)
+    }
+  }
 }
 
 if (typeof $response != 'undefined') {
