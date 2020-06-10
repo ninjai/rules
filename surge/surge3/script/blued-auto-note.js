@@ -12,7 +12,7 @@ if (typeof $response != 'undefined') {
   obj.data[0].is_locked = 0
   obj.data[0].aaid = ''
   obj.data[0].mate = 0
-  delete obj.data[0].status
+  delete obj.data[0]['status']
 
   if (obj.data[0].note === '') {
     if ($persistentStore.read('IdBlued')) {
