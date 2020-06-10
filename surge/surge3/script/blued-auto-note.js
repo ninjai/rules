@@ -5,6 +5,14 @@ if (typeof $response != 'undefined') {
     obj.data[0].ads_banner.length = 0
   }
 
+  obj.data[0].access_private_photos = 1
+  obj.data[0].allow_show_reports = 1
+  obj.data[0].is_access_follows = 1
+  obj.data[0].is_access_groups = 1
+  obj.data[0].is_locked = 0
+  obj.data[0].aaid = ''
+  obj.data[0].mate = 0
+
   if (obj.data[0].note === '') {
     if ($persistentStore.read('IdBlued')) {
 
