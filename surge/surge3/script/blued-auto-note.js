@@ -10,6 +10,7 @@ if (typeof $response != 'undefined') {
   obj.data[0].is_access_follows = 1
   obj.data[0].is_access_groups = 1
   obj.data[0].is_locked = 0
+  obj.data[0].relationship = 0
   obj.data[0].aaid = ''
   obj.data[0].mate = 0
   delete obj.data[0]['status']
