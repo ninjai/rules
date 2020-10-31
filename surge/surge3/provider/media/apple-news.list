@@ -1,6 +1,6 @@
 # > Apple News
 DOMAIN,apple.comscoreresearch.com
-DOMAIN,gspe1-ssl.ls.apple.com
+DOMAIN,gspe*-ssl.ls.apple.com
 DOMAIN,news-client.apple.com
 DOMAIN,news-edge.apple.com
 DOMAIN,news-events.apple.com
