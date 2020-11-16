@@ -1,4 +1,5 @@
+DOMAIN,static.cdn.responsys.net
 DOMAIN-SUFFIX,digicert.com
-DOMAIN-SUFFIX,optimizely.com
-DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,ifixit.com
+DOMAIN-SUFFIX,nssurge.com
+DOMAIN-SUFFIX,optimizely.com
