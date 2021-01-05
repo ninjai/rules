@@ -1,15 +1,12 @@
 #!name=TikTok
-#!desc=Remove TikTok's regional restrictions and watermark.
+#!desc=Remove TikTok's regional restrictions.
 #!system=ios
 
 [URL Rewrite]
-(?<=_region=)CN(?=&) US 307
 (?<=&mcc_mnc=)4 2 307
-(?<=&app_version=)1[6-9]..(?=.?.?&) 100. 307
-(?<=\?version_code=)1[6-9]..(?=.?.?&) 100. 307
-^(https?:\/\/dm[\w-]+\.\w+\.com\/.+)(\?)(.+) $1$3 302
+(?<=_region=)CN(?=&) US 307
 (^https?:\/\/*\.\w{4}okv.com\/.+&.+)(\d{2}\.3\.\d)(.+) $118.0$3 302
-^https://api[\w-]*?.tiktokv.com/aweme/v\d/policy/notice/? - reject
+^(https?:\/\/dm[\w-]+\.\w+\.com\/.+)(\?)(.+) $1$3 302
 
 [MITM]
-hostname = %APPEND% *.tiktokv.com, *.byteoversea.com, *.musical.ly, *.snssdk.com, *.tik-tokapi.com
+hostname = %APPEND% *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com

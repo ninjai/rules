@@ -1,11 +1,4 @@
 # > Apple News
-DOMAIN,apple.comscoreresearch.com
-DOMAIN,gspe*-ssl.ls.apple.com
-DOMAIN,news-client.apple.com
-DOMAIN,news-edge.apple.com
-DOMAIN,news-events.apple.com
-DOMAIN-SUFFIX,apple.news
-PROCESS-NAME,com.apple.geod
-PROCESS-NAME,News
 USER-AGENT,AppleNews*
 USER-AGENT,com.apple.news*
+DOMAIN,gspe1-ssl.ls.apple.com
