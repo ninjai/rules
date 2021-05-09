@@ -1,4 +1,5 @@
 # > Telegram
+PROCESS-NAME,Telegram
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,tx.me
 DOMAIN-SUFFIX,tdesktop.com
