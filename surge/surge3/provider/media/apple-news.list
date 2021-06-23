@@ -1,6 +1,6 @@
 # > Apple News
 DOMAIN,gspe1-ssl.ls.apple.com
-PROCESS-NAME,Map
+PROCESS-NAME,Maps
 PROCESS-NAME,News
 USER-AGENT,AppleNews*
 USER-AGENT,com.apple.news*
