@@ -2,7 +2,7 @@
 #!desc=Blued filter list by note.
 
 [MITM]
-hostname = %APPEND% argo.blued.cn, ???.???.???.???
+hostname = %APPEND% *.blued.cn, -*im.blued.cn
 
 [Script]
 http-response ^blued-set-filter$ script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-set-filter.js,requires-body=true
