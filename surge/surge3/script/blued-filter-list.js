@@ -2,33 +2,34 @@ const keyword = $persistentStore.read('filterBlued') !== null ? $persistentStore
 
 function filterList(data) {
   switch (keyword) {
-    case 'normal': {
-      return data.filter(item => item.note === '' && item.is_invisible_half === 0)
-    }
-    case 'general': {
-      return data.filter(item => item.note !== '拒-丑' && item.is_invisible_half === 0)
-    }
-    default: {
-      return data.filter(item => item.note === keyword && item.is_invisible_half === 0)
-    }
+    case 'normal':
+      {
+        return data.filter(item => item.note === '')
+      }
+    case 'general':
+      {
+        return data.filter(item => item.note !== '拒-丑')
+      }
+    default:
+      {
+        return data.filter(item => item.note === keyword)
+      }
   }
 }
 
-if (typeof $response != 'undefined') {
-  let obj = JSON.parse($response.body)
-  if (obj.data) {
-    obj.data = filterList(obj.data)
-  }
-  if (obj.extra) {
-    if (obj.extra.adms) {
-      obj.extra.adms.length = 0
-    }
-    if (obj.extra.adms_user) {
-      obj.extra.adms_user.length = 0
+if (typeof $response !== 'undefined') {
+  let original = JSON.parse($response.body)
+  let modified = JSON.parse(JSON.stringify(original))
+
+  if (modified.data) {
+    modified.data = filterList(modified.data)
+
+    if (!modified.data.length) {
+      modified.data = original.data.splice(-1)
     }
   }
-  $done({ body: JSON.stringify(obj) })
-}
-else {
+
+  $done({ body: JSON.stringify(modified) })
+} else {
   $done({})
 }
