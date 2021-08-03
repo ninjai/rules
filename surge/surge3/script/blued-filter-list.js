@@ -17,7 +17,7 @@ function filterList(data) {
   }
 }
 
-if (typeof $response !== 'undefined') {
+if (typeof $response != 'undefined') {
   let original = JSON.parse($response.body)
   let modified = JSON.parse(JSON.stringify(original))
 
