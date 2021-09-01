@@ -1,4 +1,4 @@
 # > Paramount Plus
-USER-AGENT, CBSTVE*
-USER-AGENT, PPlus*
-DOMAIN-SUFFIX, paramountplus.com
+USER-AGENT,CBSTVE*
+USER-AGENT,PPlus*
+DOMAIN-SUFFIX,paramountplus.com
