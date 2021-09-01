@@ -1,5 +1,4 @@
 # > Reject
-DOMAIN,access-sngapm.qcloud.com
 DOMAIN-SUFFIX,brightline.tv
 DOMAIN-SUFFIX,conviva.com
 DOMAIN-SUFFIX,doubleclick.net
@@ -7,3 +6,4 @@ DOMAIN-SUFFIX,fwmrm.net
 DOMAIN-SUFFIX,newrelic.com
 DOMAIN-SUFFIX,omtrdc.net
 DOMAIN-SUFFIX,tealiumiq.com
+DOMAIN,access-sngapm.qcloud.com
