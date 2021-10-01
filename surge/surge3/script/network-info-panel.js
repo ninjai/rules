@@ -6,7 +6,7 @@ let v4 = $network.v4.primaryAddress
 let routerv4 = $network.v4.primaryRouter
 let v6 = $network.v6.primaryAddress
 
-if(ssid!=='undefined'){
+if(!ssid){
     $done({
         "title": "网络信息",
         "content": `无线网络: ${ssid}\nIPv4: ${v4}\nIPv6: ${v6}\nIPv4网关: ${routerv4}`,
