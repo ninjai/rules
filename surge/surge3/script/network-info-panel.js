@@ -9,7 +9,7 @@ let v6 = $network.v6.primaryAddress
 if(ssid!==null){
     $done({
         "title": "网络信息",
-        "content": `无线网络: ${ssid}\nIPv4: ${v4}\nIPv6: ${v6}\nIPv4网关: ${routerv4}`,
+        "content": `无线网络: ${ssid}\nIPv4: ${v4}\nIPv4网关: ${routerv4}\nIPv6: ${v6}`,
         "icon": "wifi",
         "icon-color": "#0EEA3B",
     })
@@ -17,7 +17,7 @@ if(ssid!==null){
 else{
     $done({
         "title": "网络信息",
-        "content": `移动网络: ${carrier},${radio}\nIPv4: ${v4}\nIPv6: ${v6}\nIPv4网关: ${routerv4}`,
+        "content": `移动网络: ${carrier},${radio}\nIPv4: ${v4}\nIPv4网关: ${routerv4}\nIPv6: ${v6}`,
         "icon": "simcard.fill",
         "icon-color": "#EA0300",
     })
