@@ -1,5 +1,4 @@
-#!name=Network Info Panel
-#!desc=Network information panel.
+#!name=网络信息面板
 #!system=ios
 
 [Panel]
