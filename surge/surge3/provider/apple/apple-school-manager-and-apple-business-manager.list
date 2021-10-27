@@ -1,0 +1,5 @@
+# > Apple School Manager and Apple Business Manager
+DOMAIN,isu.apple.com
+DOMAIN,ws-ee-maidsvc.icloud.com
+DOMAIN-SUFFIX,business.apple.com
+DOMAIN-SUFFIX,school.apple.com

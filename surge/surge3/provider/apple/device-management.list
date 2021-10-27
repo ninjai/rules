@@ -1,0 +1,10 @@
+# > Device Management
+DOMAIN,deviceenrollment.apple.com
+DOMAIN,deviceservices-external.apple.com
+DOMAIN,gdmf.apple.com
+DOMAIN,identity.apple.com
+DOMAIN,iprofiles.apple.com
+DOMAIN,mdmenrollment.apple.com
+DOMAIN,setup.icloud.com
+DOMAIN,vpp.itunes.apple.com
+DOMAIN-SUFFIX,push.apple.com

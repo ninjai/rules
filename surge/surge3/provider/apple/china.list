@@ -1,0 +1,6 @@
+# > Certificate validation in China
+DOMAIN,ocsp.digicert.cn
+
+# > iCloud services in China
+DOMAIN-SUFFIX,apzones.com
+DOMAIN-SUFFIX,icloud.com.cn

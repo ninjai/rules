@@ -1,0 +1,4 @@
+# > App notarization
+IP-CIDR,17.248.128.0/18,no-resolve
+IP-CIDR,17.248.192.0/19,no-resolve
+IP-CIDR,17.250.64.0/18,no-resolve

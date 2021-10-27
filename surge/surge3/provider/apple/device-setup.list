@@ -1,0 +1,11 @@
+# > Device Setup
+DOMAIN,albert.apple.com
+DOMAIN,captive.apple.com
+DOMAIN,gs.apple.com
+DOMAIN,humb.apple.com
+DOMAIN,sq-device.apple.com
+DOMAIN,static.ips.apple.com
+DOMAIN,tbsc.apple.com
+DOMAIN,time-ios.apple.com
+DOMAIN,time-macos.apple.com
+DOMAIN,time.apple.com
