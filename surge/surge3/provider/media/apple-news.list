@@ -1,9 +1,5 @@
 # > Apple News
-USER-AGENT,%E5%9C%B0%E5%9B%BE*
-USER-AGENT,AppleNews*
-USER-AGENT,com.apple.news*
-USER-AGENT,News*
-PROCESS-NAME,Maps
-PROCESS-NAME,News
-PROCESS-NAME,地图
-DOMAIN,gspe1-ssl.ls.apple.com
+DOMAIN,apple.comscoreresearch.com
+DOMAIN,news-client.apple.com
+DOMAIN,news-edge.apple.com
+DOMAIN,news-events.apple.com
