@@ -1,6 +1,5 @@
 # > TikTok
-USER-AGENT,TikTok*
-USER-AGENT,tiktok*
+DOMAIN,p16-tiktokcdn-com.akamaized.net
 DOMAIN-KEYWORD,-tiktokcdn-com
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,ibytedtos.com
@@ -14,4 +13,5 @@ DOMAIN-SUFFIX,tik-tokapi.com
 DOMAIN-SUFFIX,tiktok.com
 DOMAIN-SUFFIX,tiktokcdn.com
 DOMAIN-SUFFIX,tiktokv.com
-DOMAIN,p16-tiktokcdn-com.akamaized.net
+USER-AGENT,TikTok*
+USER-AGENT,tiktok*
