@@ -8,11 +8,11 @@ function filterList(data) {
       }
     case 'general':
       {
-        return data.filter(item => item.note !== '拒-丑')
+        return data.filter(item => item.note.includes('拒-丑-'))
       }
     default:
       {
-        return data.filter(item => item.note === keyword)
+        return data.filter(item => item.note.includes(keyword))
       }
   }
 }

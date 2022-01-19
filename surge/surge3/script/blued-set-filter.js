@@ -1,4 +1,4 @@
-const keyword = ''
+const keyword = 'normal'
 
 $persistentStore.write(keyword, 'filterBlued')
 
