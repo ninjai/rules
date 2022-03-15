@@ -3,7 +3,7 @@
 
 [Replica]
 keyword-filter-type = pattern
-keyword-filter = %APPEND% *.mp4*,*imgextra*
+keyword-filter = %APPEND% *mp4*,*imgextra*
 
 [MITM]
 hostname = %APPEND% *alicdn.com
