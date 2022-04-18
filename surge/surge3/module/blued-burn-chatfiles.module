@@ -1,9 +1,6 @@
-#!name=Blued - Burn chatfiles
-#!desc=Capture Blued burn chatfiles.
+#!name=Blued - Chatfiles
+#!desc=Capture Blued chatfiles.
 
 [Replica]
 keyword-filter-type = pattern
-keyword-filter = %APPEND% *burn-chatfiles*
-
-[MITM]
-hostname = %APPEND% *bldimg.com
+keyword-filter = %APPEND% *chatfiles*
