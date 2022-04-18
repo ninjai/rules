@@ -1,5 +1,5 @@
-#!name=Blued - Filter list
-#!desc=Blued filter list by note.
+#!name=Blued - Filter List
+#!desc=Blued Filter List By Note.
 
 [Script]
 http-response ^blued-set-filter$ script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-set-filter.js,requires-body=true

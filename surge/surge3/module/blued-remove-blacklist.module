@@ -1,8 +1,5 @@
 #!name=Blued - Remove Blacklist
-#!desc=Blued remove blacklist.
-
-[MITM]
-hostname = %APPEND% *blued.cn
+#!desc=Blued Remove Blacklist.
 
 [Script]
 http-response ^https:\/\/argo\.blued\.cn\/users\/[0-9]+\?.*$ script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-remove-blacklist.js,requires-body=true

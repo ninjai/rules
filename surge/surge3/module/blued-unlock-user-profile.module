@@ -1,8 +1,5 @@
-#!name=Blued - Auto note
-#!desc=Blued automatically make note.
-
-[MITM]
-hostname = %APPEND% *blued.cn
+#!name=Blued - Unlock User Profile
+#!desc=Blued Unlock User Profile.
 
 [Script]
 http-response ^https:\/\/argo\.blued\.cn\/users\/[0-9]+\?.*$ script-path=https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/script/blued-user-profile-permission.js,requires-body=true

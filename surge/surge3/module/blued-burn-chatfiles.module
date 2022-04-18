@@ -1,6 +1,6 @@
 #!name=Blued - Chatfiles
-#!desc=Capture Blued chatfiles.
+#!desc=Capture Blued Chatfiles.
 
 [Replica]
 keyword-filter-type = pattern
-keyword-filter = %APPEND% *chatfiles*
+keyword-filter = *chatfiles*
