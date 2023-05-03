@@ -1,4 +1,5 @@
 # > Email
-DOMAIN-SUFFIX,imap.gmail.com
-DOMAIN-SUFFIX,imap-mail.outlook.com
-DOMAIN-SUFFIX,mail.me.com
+PROCESS-NAME,Mail
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,outlook.com
