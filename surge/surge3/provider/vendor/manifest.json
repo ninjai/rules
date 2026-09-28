@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "imported_at": "2026-09-28T18:10:22.558776+00:00",
+  "description": "人工审阅的外部 Surge 规则快照；原始字节不变；更新需复查差异后发布。",
+  "sources": [
+    {
+      "upstream_url": "https://github.com/NSRingo/News/releases/latest/download/News.list",
+      "repository": "https://github.com/NSRingo/News",
+      "revision": "v3.2.1",
+      "snapshot_url": "https://github.com/NSRingo/News/releases/download/v3.2.1/News.list",
+      "path": "nsringo/apple-news.list",
+      "sha256": "e1862478625f3386c67fae88977ffb722572fbf7dd1b45f2c731418f06bc041f",
+      "rule_count": 4
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/YouTube.list",
+      "repository": "https://github.com/dler-io/Rules",
+      "revision": null,
+      "snapshot_url": "https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/YouTube.list",
+      "path": "dler/youtube.list",
+      "sha256": "bbafe5c786f897023dad27f657ffaf33ff93570bc81cfd8e77d3a84cc36f1507",
+      "rule_count": 167
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/Netflix.list",
+      "repository": "https://github.com/dler-io/Rules",
+      "revision": null,
+      "snapshot_url": "https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/Netflix.list",
+      "path": "dler/netflix.list",
+      "sha256": "ef257b1f82bd2fa08d96a48d3820e5f614f29c725f9b5ae4ba7ac3e9d8d990ab",
+      "rule_count": 7
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/Spotify.list",
+      "repository": "https://github.com/dler-io/Rules",
+      "revision": null,
+      "snapshot_url": "https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/Spotify.list",
+      "path": "dler/spotify.list",
+      "sha256": "f246b37c350c0ada8916a3c2c17da2f87d481da7d2eab7cb687e2ba69d7b6c62",
+      "rule_count": 27
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Viki/Viki.list",
+      "repository": "https://github.com/blackmatrix7/ios_rule_script",
+      "revision": "5c22b5056f6288c27935489f74f8681fadbdba87",
+      "snapshot_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5c22b5056f6288c27935489f74f8681fadbdba87/rule/Surge/Viki/Viki.list",
+      "path": "blackmatrix7/viki.list",
+      "sha256": "9522270d1be05efe8338d594e0dcb01da9161ec25be655a557fc7e22bb5b6048",
+      "rule_count": 8
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Rakuten/Rakuten.list",
+      "repository": "https://github.com/blackmatrix7/ios_rule_script",
+      "revision": "5c22b5056f6288c27935489f74f8681fadbdba87",
+      "snapshot_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5c22b5056f6288c27935489f74f8681fadbdba87/rule/Surge/Rakuten/Rakuten.list",
+      "path": "blackmatrix7/rakuten.list",
+      "sha256": "199de0858556f461c0f5add971e174955d5a5b6acf54dbda0bfba0bacc0a349c",
+      "rule_count": 18
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surge/TikTok/TikTok.list",
+      "repository": "https://github.com/blackmatrix7/ios_rule_script",
+      "revision": "1aa69f3eeef202e5b508ca19a33fdf7f5ff6acd9",
+      "snapshot_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/1aa69f3eeef202e5b508ca19a33fdf7f5ff6acd9/rule/Surge/TikTok/TikTok.list",
+      "path": "blackmatrix7/tiktok.list",
+      "sha256": "a1a2137a9d26e2785ac7ca54e1ab04155485fb29002daee59cbcb4d1e38e2f05",
+      "rule_count": 28
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Steam.list",
+      "repository": "https://github.com/dler-io/Rules",
+      "revision": null,
+      "snapshot_url": "https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Steam.list",
+      "path": "dler/steam.list",
+      "sha256": "35b222cbca9f0109d15f3ec979062d3ef1d803fbeb92d62669cbd86f55078b92",
+      "rule_count": 6
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/WeChat/WeChat.list",
+      "repository": "https://github.com/blackmatrix7/ios_rule_script",
+      "revision": "5c22b5056f6288c27935489f74f8681fadbdba87",
+      "snapshot_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5c22b5056f6288c27935489f74f8681fadbdba87/rule/Surge/WeChat/WeChat.list",
+      "path": "blackmatrix7/wechat.list",
+      "sha256": "01e55617280a7b03db13397fcd2fe4bb3be559f728145fb1fbb054036d75d0bc",
+      "rule_count": 332
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Binance/Binance.list",
+      "repository": "https://github.com/blackmatrix7/ios_rule_script",
+      "revision": "5c22b5056f6288c27935489f74f8681fadbdba87",
+      "snapshot_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5c22b5056f6288c27935489f74f8681fadbdba87/rule/Surge/Binance/Binance.list",
+      "path": "blackmatrix7/binance.list",
+      "sha256": "034b1730ac0adb39a8a88685d6f6864a7070a14d722acbf8f3859806b28b92a4",
+      "rule_count": 12
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TeamViewer/TeamViewer.list",
+      "repository": "https://github.com/blackmatrix7/ios_rule_script",
+      "revision": "5c22b5056f6288c27935489f74f8681fadbdba87",
+      "snapshot_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5c22b5056f6288c27935489f74f8681fadbdba87/rule/Surge/TeamViewer/TeamViewer.list",
+      "path": "blackmatrix7/teamviewer.list",
+      "sha256": "3775059d482bcc513f6b3754c7234150d495444bcac968ac238b4b9a414c6498",
+      "rule_count": 8
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.Telegram.list",
+      "repository": "https://github.com/VirgilClyne/GetSomeFries",
+      "revision": "b4aa767bcbc4d39bea5b549a3277a00517891d1e",
+      "snapshot_url": "https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/b4aa767bcbc4d39bea5b549a3277a00517891d1e/ruleset/ASN.Telegram.list",
+      "path": "get-some-fries/telegram.list",
+      "sha256": "cac4fa2ce33125fca4f9fa529360582a0d9d5ffba3ba6bf3d9c9497e0b194d35",
+      "rule_count": 20
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Speedtest.list",
+      "repository": "https://github.com/dler-io/Rules",
+      "revision": null,
+      "snapshot_url": "https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Speedtest.list",
+      "path": "dler/speedtest.list",
+      "sha256": "1babeec8cff9e1ada9aa9f14ac6bdda05e3d3fbfbf607f605f485ffe960ebdb4",
+      "rule_count": 8
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Proxy.list",
+      "repository": "https://github.com/dler-io/Rules",
+      "revision": null,
+      "snapshot_url": "https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Proxy.list",
+      "path": "dler/proxy.list",
+      "sha256": "463c04b811c6bea15e95928328d19248746e9c81c625a4c97e8fa550a5abfdb1",
+      "rule_count": 1005
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Domestic.list",
+      "repository": "https://github.com/dler-io/Rules",
+      "revision": null,
+      "snapshot_url": "https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Domestic.list",
+      "path": "dler/domestic.list",
+      "sha256": "83178785f888ee4216f11e60529d4621c31fa0b15e2df86621bf61f2f6d10478",
+      "rule_count": 267
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list",
+      "repository": "https://github.com/VirgilClyne/GetSomeFries",
+      "revision": "b4aa767bcbc4d39bea5b549a3277a00517891d1e",
+      "snapshot_url": "https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/b4aa767bcbc4d39bea5b549a3277a00517891d1e/ruleset/ASN.China.list",
+      "path": "get-some-fries/china-asn.list",
+      "sha256": "50f106604b9da0b0adc3f17f0d004dd129684ae95811ac29f13471332c8bcafa",
+      "rule_count": 5076
+    }
+  ],
+  "licenses": [
+    {
+      "repository": "https://github.com/blackmatrix7/ios_rule_script",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5c22b5056f6288c27935489f74f8681fadbdba87/LICENSE",
+      "path": "licenses/blackmatrix7-LICENSE",
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+    },
+    {
+      "repository": "https://github.com/VirgilClyne/GetSomeFries",
+      "url": "https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/b4aa767bcbc4d39bea5b549a3277a00517891d1e/LICENSE",
+      "path": "licenses/get-some-fries-LICENSE",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "repository": "https://github.com/NSRingo/News",
+      "url": "https://raw.githubusercontent.com/NSRingo/News/4b222f8691decf799d01107ce69935f776b6acaf/LICENSE",
+      "path": "licenses/nsringo-LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    }
+  ],
+  "license_notes": {
+    "dler-io/Rules": "导入时仓库根目录未发现独立 LICENSE；保留各规则文件原始注释及来源，不另行声明许可证。"
+  }
+}
