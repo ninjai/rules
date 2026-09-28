@@ -1,0 +1,15 @@
+# 本仓库整理发布；请修改 curated-plan.json/来源并运行 scripts/build-curated-rules.py。
+# 审阅日期: 2026-09-29
+# 有效规则数: 6
+# 修改明细: surge/surge3/provider/curated/build-report.json
+# 上游许可: surge/surge3/provider/vendor/licenses/
+# 输入: surge/surge3/provider/vendor/dler/steam.list
+# 上游注释: > Steam
+
+# 非 IP 规则优先；IP/ASN 位于末尾，各类别内部保持来源顺序。
+DOMAIN-SUFFIX,s.team
+DOMAIN-SUFFIX,steamcommunity.com
+DOMAIN-SUFFIX,steamgames.com
+DOMAIN-SUFFIX,steampowered.com
+DOMAIN-SUFFIX,steamstatic.com
+DOMAIN-SUFFIX,steamusercontent.com

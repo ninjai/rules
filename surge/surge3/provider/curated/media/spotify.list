@@ -1,0 +1,36 @@
+# 本仓库整理发布；请修改 curated-plan.json/来源并运行 scripts/build-curated-rules.py。
+# 审阅日期: 2026-09-29
+# 有效规则数: 27
+# 修改明细: surge/surge3/provider/curated/build-report.json
+# 上游许可: surge/surge3/provider/vendor/licenses/
+# 输入: surge/surge3/provider/vendor/dler/spotify.list
+# 上游注释: > Spotify
+
+# 非 IP 规则优先；IP/ASN 位于末尾，各类别内部保持来源顺序。
+DOMAIN,audio-ak-spotify-com.akamaized.net
+DOMAIN,audio4-ak-spotify-com.akamaized.net
+DOMAIN-SUFFIX,byspotify.com
+DOMAIN,cdn-spotify-experiments.conductrics.com
+DOMAIN,heads-ak-spotify-com.akamaized.net
+DOMAIN,heads4-ak-spotify-com.akamaized.net
+DOMAIN-SUFFIX,lifeatspotify.com
+DOMAIN-SUFFIX,pscdn.co
+DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,spoti.fi
+DOMAIN-SUFFIX,spotify-everywhere.com
+DOMAIN-SUFFIX,spotify.com
+DOMAIN,spotify.com.edgesuite.net
+DOMAIN-SUFFIX,spotify.design
+DOMAIN-SUFFIX,spotify.link
+DOMAIN,spotify.map.fastly.net
+DOMAIN,spotify.map.fastlylb.net
+DOMAIN-SUFFIX,spotifycdn.com
+DOMAIN-SUFFIX,spotifycdn.net
+DOMAIN-SUFFIX,spotifycharts.com
+DOMAIN-SUFFIX,spotifycodes.com
+DOMAIN-SUFFIX,spotifyforbrands.com
+DOMAIN-SUFFIX,spotifyforvendors.com
+DOMAIN-SUFFIX,spotifyjobs.com
+DOMAIN-SUFFIX,spotilocal.com
+DOMAIN-SUFFIX,tospotify.com
+USER-AGENT,Spotify*

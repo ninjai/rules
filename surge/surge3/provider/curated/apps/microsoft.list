@@ -1,0 +1,34 @@
+# 本仓库整理发布；请修改 curated-plan.json/来源并运行 scripts/build-curated-rules.py。
+# 审阅日期: 2026-09-29
+# 有效规则数: 25
+# 修改明细: surge/surge3/provider/curated/build-report.json
+# 上游许可: surge/surge3/provider/vendor/licenses/
+# 输入: surge/surge3/provider/microsoft.list
+# 上游注释: > Microsoft
+
+# 非 IP 规则优先；IP/ASN 位于末尾，各类别内部保持来源顺序。
+USER-AGENT,OneDrive*
+PROCESS-NAME,OneDrive
+DOMAIN-KEYWORD,onedrive
+DOMAIN-SUFFIX,aspnetcdn.com
+DOMAIN-SUFFIX,azure.com
+DOMAIN-SUFFIX,azureedge.net
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,cloudapp.net
+DOMAIN-SUFFIX,gamepass.com
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,live.net
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,mixer.com
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,msocsp.com
+DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,office.net
+DOMAIN-SUFFIX,onestore.ms
+DOMAIN-SUFFIX,skype.com
+DOMAIN-SUFFIX,windows.com
+DOMAIN-SUFFIX,windowsupdate.com
+DOMAIN-SUFFIX,xbox.com
+DOMAIN-SUFFIX,xboxab.com
+DOMAIN-SUFFIX,xboxlive.com
+DOMAIN-SUFFIX,xboxservices.com

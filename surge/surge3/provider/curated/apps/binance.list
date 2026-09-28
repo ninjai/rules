@@ -1,0 +1,26 @@
+# 本仓库整理发布；请修改 curated-plan.json/来源并运行 scripts/build-curated-rules.py。
+# 审阅日期: 2026-09-29
+# 有效规则数: 12
+# 修改明细: surge/surge3/provider/curated/build-report.json
+# 上游许可: surge/surge3/provider/vendor/licenses/
+# 输入: surge/surge3/provider/vendor/blackmatrix7/binance.list
+# 上游注释: NAME: Binance
+# 上游注释: AUTHOR: blackmatrix7
+# 上游注释: REPO: https://github.com/blackmatrix7/ios_rule_script
+# 上游注释: UPDATED: 2025-06-06 09:18:53
+# 上游注释: DOMAIN-SUFFIX: 12
+# 上游注释: TOTAL: 12
+
+# 非 IP 规则优先；IP/ASN 位于末尾，各类别内部保持来源顺序。
+DOMAIN-SUFFIX,appsflayer.com
+DOMAIN-SUFFIX,binance.cloud
+DOMAIN-SUFFIX,binance.com
+DOMAIN-SUFFIX,binance.me
+DOMAIN-SUFFIX,binancecnt.com
+DOMAIN-SUFFIX,binancefuture.com
+DOMAIN-SUFFIX,bnappzh.co
+DOMAIN-SUFFIX,bnbstatic.com
+DOMAIN-SUFFIX,bnbzh.ac
+DOMAIN-SUFFIX,bntrace.com
+DOMAIN-SUFFIX,saasexch.cc
+DOMAIN-SUFFIX,saasexch.com

@@ -1,0 +1,12 @@
+# 本仓库整理发布；请修改 curated-plan.json/来源并运行 scripts/build-curated-rules.py。
+# 审阅日期: 2026-09-29
+# 有效规则数: 3
+# 修改明细: surge/surge3/provider/curated/build-report.json
+# 上游许可: surge/surge3/provider/vendor/licenses/
+# 输入: surge/surge3/provider/apple/apple-developer/app-notarization.list
+# 上游注释: > App notarization
+
+# 非 IP 规则优先；IP/ASN 位于末尾，各类别内部保持来源顺序。
+IP-CIDR,17.248.128.0/18,no-resolve
+IP-CIDR,17.248.192.0/19,no-resolve
+IP-CIDR,17.250.64.0/18,no-resolve

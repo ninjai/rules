@@ -1,0 +1,39 @@
+# 本仓库整理发布；请修改 curated-plan.json/来源并运行 scripts/build-curated-rules.py。
+# 审阅日期: 2026-09-29
+# 有效规则数: 26
+# 修改明细: surge/surge3/provider/curated/build-report.json
+# 上游许可: surge/surge3/provider/vendor/licenses/
+# 输入: surge/surge3/provider/vendor/get-some-fries/telegram.list
+# 上游注释: name=🍟 Fries: 🌐 ASN Telegram
+# 上游注释: desc=按ASN分流Telegram
+# 上游注释: author=VirgilClyne
+# 上游注释: homepage=https://github.com/VirgilClyne/GetSomeFries/wiki/🌐-ASN
+# 上游注释: icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png
+
+# 非 IP 规则优先；IP/ASN 位于末尾，各类别内部保持来源顺序。
+PROCESS-NAME,org.telegram.messenger
+DOMAIN-SUFFIX,comments.app // @CommentsBot
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tx.me
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telegra.ph // Telegraph
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telegram-cdn.org
+DOMAIN-SUFFIX,graph.org
+DOMAIN-SUFFIX,legra.ph
+DOMAIN-SUFFIX,telesco.pe // Telescope
+IP-CIDR,91.108.56.0/22,no-resolve // Telegram 官方 CIDR
+IP-CIDR,91.108.4.0/22,no-resolve // Telegram 官方 CIDR
+IP-CIDR,91.108.8.0/22,no-resolve // Telegram 官方 CIDR
+IP-CIDR,91.108.16.0/22,no-resolve // Telegram 官方 CIDR
+IP-CIDR,91.108.12.0/22,no-resolve // Telegram 官方 CIDR
+IP-CIDR,149.154.160.0/20,no-resolve // Telegram 官方 CIDR
+IP-CIDR,91.105.192.0/23,no-resolve // Telegram 官方 CIDR
+IP-CIDR,91.108.20.0/22,no-resolve // Telegram 官方 CIDR
+IP-CIDR,185.76.151.0/24,no-resolve // Telegram 官方 CIDR
+IP-CIDR6,2001:b28:f23d::/48,no-resolve // Telegram 官方 CIDR
+IP-CIDR6,2001:b28:f23f::/48,no-resolve // Telegram 官方 CIDR
+IP-CIDR6,2001:67c:4e8::/48,no-resolve // Telegram 官方 CIDR
+IP-CIDR6,2001:b28:f23c::/48,no-resolve // Telegram 官方 CIDR
+IP-CIDR6,2a0a:f280::/32,no-resolve // Telegram 官方 CIDR

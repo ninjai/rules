@@ -1,0 +1,13 @@
+# 本仓库整理发布；请修改 curated-plan.json/来源并运行 scripts/build-curated-rules.py。
+# 审阅日期: 2026-09-29
+# 有效规则数: 4
+# 修改明细: surge/surge3/provider/curated/build-report.json
+# 上游许可: surge/surge3/provider/vendor/licenses/
+# 输入: surge/surge3/provider/apple/apple-school-manager-and-apple-business-manager.list
+# 上游注释: > Apple School Manager and Apple Business Manager
+
+# 非 IP 规则优先；IP/ASN 位于末尾，各类别内部保持来源顺序。
+DOMAIN,isu.apple.com
+DOMAIN,ws-ee-maidsvc.icloud.com
+DOMAIN-SUFFIX,business.apple.com
+DOMAIN-SUFFIX,school.apple.com

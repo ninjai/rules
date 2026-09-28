@@ -1,0 +1,23 @@
+# 本仓库整理发布；请修改 curated-plan.json/来源并运行 scripts/build-curated-rules.py。
+# 审阅日期: 2026-09-29
+# 有效规则数: 7
+# 修改明细: surge/surge3/provider/curated/build-report.json
+# 上游许可: surge/surge3/provider/vendor/licenses/
+# 输入: surge/surge3/provider/vendor/blackmatrix7/teamviewer.list
+# 上游注释: NAME: TeamViewer
+# 上游注释: AUTHOR: blackmatrix7
+# 上游注释: REPO: https://github.com/blackmatrix7/ios_rule_script
+# 上游注释: UPDATED: 2025-06-06 09:16:56
+# 上游注释: DOMAIN-SUFFIX: 1
+# 上游注释: IP-CIDR: 3
+# 上游注释: IP-CIDR6: 4
+# 上游注释: TOTAL: 8
+
+# 非 IP 规则优先；IP/ASN 位于末尾，各类别内部保持来源顺序。
+DOMAIN-SUFFIX,teamviewer.com
+IP-CIDR,139.220.243.27/32,no-resolve
+IP-CIDR,221.226.128.146/32,no-resolve
+IP-CIDR6,2a0b:b580::/48,no-resolve
+IP-CIDR6,2a0b:b581::/48,no-resolve
+IP-CIDR6,2a0b:b582::/48,no-resolve
+IP-CIDR6,2a0b:b583::/48,no-resolve

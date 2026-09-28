@@ -1,0 +1,26 @@
+# 本仓库整理发布；请修改 curated-plan.json/来源并运行 scripts/build-curated-rules.py。
+# 审阅日期: 2026-09-29
+# 有效规则数: 17
+# 修改明细: surge/surge3/provider/curated/build-report.json
+# 上游许可: surge/surge3/provider/vendor/licenses/
+# 输入: surge/surge3/provider/media/iqiyi.list
+# 上游注释: > iQiyi
+
+# 非 IP 规则优先；IP/ASN 位于末尾，各类别内部保持来源顺序。
+USER-AGENT,iQIYI*
+USER-AGENT,QYPlayer*
+DOMAIN-SUFFIX,inter.iqiyi.com
+DOMAIN-SUFFIX,inter.ptqy.gitv.tv
+DOMAIN-SUFFIX,intl.iqiyi.com
+DOMAIN-SUFFIX,iq.com
+DOMAIN,intel-cache.m.iqiyi.com
+DOMAIN,intel-cache.video.iqiyi.com
+DOMAIN,intl-rcd.iqiyi.com
+DOMAIN,intl-subscription.iqiyi.com
+URL-REGEX,^https?:\/\/int[\w-\.]+iqiyi\.com
+IP-CIDR,103.44.56.0/22,no-resolve
+IP-CIDR,118.26.120.0/24,no-resolve
+IP-CIDR,118.26.32.0/23,no-resolve
+IP-CIDR,223.119.62.224/28,no-resolve
+IP-CIDR,23.40.241.251/32,no-resolve
+IP-CIDR,23.40.242.10/32,no-resolve

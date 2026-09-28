@@ -1,0 +1,2377 @@
+{
+  "reviewed_on": "2026-09-29",
+  "lists": [
+    {
+      "output": "media/apple-news.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/media/apple-news.list",
+          "sha256": "295cbbedf3cd592e1862711aa27d4e7ae6cdc515b72e5b02d26b99e622059d49",
+          "rules": 8
+        },
+        {
+          "path": "surge/surge3/provider/vendor/nsringo/apple-news.list",
+          "sha256": "e1862478625f3386c67fae88977ffb722572fbf7dd1b45f2c731418f06bc041f",
+          "rules": 4
+        }
+      ],
+      "input_rules": 12,
+      "output_rules": 6,
+      "sha256": "9c93eb29923ad1f884f4f8908494d17fda6c7531f76935f40e89810727dbb11e",
+      "changes": [
+        {
+          "action": "deduplicate",
+          "before": "DOMAIN,news-edge.apple.com"
+        },
+        {
+          "action": "deduplicate",
+          "before": "DOMAIN,news-events.apple.com"
+        },
+        {
+          "action": "deduplicate",
+          "before": "DOMAIN,apple.comscoreresearch.com"
+        },
+        {
+          "action": "covered",
+          "before": "DOMAIN,apple.comscoreresearch.com",
+          "by": "DOMAIN-SUFFIX,apple.comscoreresearch.com"
+        },
+        {
+          "action": "covered",
+          "before": "DOMAIN,news-edge.apple.com",
+          "by": "DOMAIN-SUFFIX,news-edge.apple.com"
+        },
+        {
+          "action": "covered",
+          "before": "DOMAIN,news-events.apple.com",
+          "by": "DOMAIN-SUFFIX,news-events.apple.com"
+        }
+      ]
+    },
+    {
+      "output": "apple/additional-content.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/apple/additional-content.list",
+          "sha256": "f034091649b4428eb693625b30e8ad6b137004482f783c2b1f5daf3e35da5753",
+          "rules": 6
+        }
+      ],
+      "input_rules": 6,
+      "output_rules": 6,
+      "sha256": "6ab9220670839647bf89ebaef7c3e2d9ee4bab329fa0df5193bb004514cf3f54",
+      "changes": []
+    },
+    {
+      "output": "apple/apple-developer/app-notarization.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/apple/apple-developer/app-notarization.list",
+          "sha256": "060170991588928a810d196f2b1fd8043d763b17b146844dbd27bb6e133d79f7",
+          "rules": 3
+        }
+      ],
+      "input_rules": 3,
+      "output_rules": 3,
+      "sha256": "3aa34cc1e32c6249d3ea97579e96b94074679a880597d99f8fb5c6c0e10938ce",
+      "changes": []
+    },
+    {
+      "output": "apple/apple-developer/app-validation.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/apple/apple-developer/app-validation.list",
+          "sha256": "fb15680312884080cb7528e51f5d376ba1afcc017ec49e876c39d9deef546680",
+          "rules": 1
+        }
+      ],
+      "input_rules": 1,
+      "output_rules": 1,
+      "sha256": "c4096513265551d68baba9fdd33514c3c84aff48f3ec7dc3503f6edd3a1ab897",
+      "changes": []
+    },
+    {
+      "output": "apple/apple-diagnostics.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/apple/apple-diagnostics.list",
+          "sha256": "683aafd6b14c1cf98848f20869801df71897ea36e09d0f19579b00b0a84c18d5",
+          "rules": 1
+        }
+      ],
+      "input_rules": 1,
+      "output_rules": 1,
+      "sha256": "cf20ddd4da1ed2a65f02718ec773d1363fdd875c5a352814287344f705090da3",
+      "changes": []
+    },
+    {
+      "output": "apple/apple-id.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/apple/apple-id.list",
+          "sha256": "335f612d61466f51cea98241ee1b2b88538124925f96cbbd0b6757045e2a6491",
+          "rules": 4
+        }
+      ],
+      "input_rules": 4,
+      "output_rules": 4,
+      "sha256": "20a2b0dc5021435456d262909c5c251c3235b3c73bc344579582183be3750deb",
+      "changes": []
+    },
+    {
+      "output": "apple/apple-school-manager-and-apple-business-manager.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/apple/apple-school-manager-and-apple-business-manager.list",
+          "sha256": "8bea70c95720579ebd21c5586f693bfd5adb390e7553af22ddea324d869228b7",
+          "rules": 4
+        }
+      ],
+      "input_rules": 4,
+      "output_rules": 4,
+      "sha256": "59fa88b9dc5a8fb650d847d58364703cfe49a485bd71c326277d84f6a6c3d87b",
+      "changes": []
+    },
+    {
+      "output": "apple/carrier-updates.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/apple/carrier-updates.list",
+          "sha256": "6a88d843cc031753cf76f756810b47f24dd53dab06fc541e66a447a9d5cdf0e7",
+          "rules": 6
+        }
+      ],
+      "input_rules": 6,
+      "output_rules": 5,
+      "sha256": "4ad0461660d6c531d74fde996bcac7658110153a6905376465e9eaff864a02b8",
+      "changes": [
+        {
+          "action": "deduplicate",
+          "before": "DOMAIN,appldnld.apple.com"
+        }
+      ]
+    },
+    {
+      "output": "apple/certificate-validation.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/apple/certificate-validation.list",
+          "sha256": "5f1d697b9040df2c947930044dc97cf6f191a65e4a36be8c64e61c0225ebb395",
+          "rules": 10
+        }
+      ],
+      "input_rules": 10,
+      "output_rules": 10,
+      "sha256": "42c4c61b72e91fe772b6ec7aa898c420800f4f02afb09c8c7ed7e36652843107",
+      "changes": []
+    },
+    {
+      "output": "apple/china.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/apple/china.list",
+          "sha256": "44f5ab64b2272540295ddedf7e4d942a0684dd9d6971cfb68084be2333b13454",
+          "rules": 3
+        }
+      ],
+      "input_rules": 3,
+      "output_rules": 3,
+      "sha256": "854ed5126b29fb604f5bf182dc7b17cfef478f15d85e0203b2e170d44e2bf6a9",
+      "changes": []
+    },
+    {
+      "output": "apple/content-caching.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/apple/content-caching.list",
+          "sha256": "9162b63ab688ba2ce56a0aa0d08eded3ba3676599bc526d052d73f1ecac91550",
+          "rules": 5
+        }
+      ],
+      "input_rules": 5,
+      "output_rules": 5,
+      "sha256": "09eed4662cc48c90714c41a4d4624fdbbaefd30237677cb256eee25281d21aef",
+      "changes": []
+    },
+    {
+      "output": "apple/device-management.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/apple/device-management.list",
+          "sha256": "3261baa4fc80171906177deea2cb20218349438b5ce095763070de2fa1d5fc85",
+          "rules": 9
+        }
+      ],
+      "input_rules": 9,
+      "output_rules": 9,
+      "sha256": "d0bafbecaf2628d8397d24e506454cbc4844da039e6a563c90cb9646d9d0442b",
+      "changes": []
+    },
+    {
+      "output": "apple/device-setup.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/apple/device-setup.list",
+          "sha256": "a584097f9dcc917a9eafdb4237b1e00c738e60d86e72d8248d069c8c259808d6",
+          "rules": 10
+        }
+      ],
+      "input_rules": 10,
+      "output_rules": 10,
+      "sha256": "40a293a385730f1c30e1d4817c2d36987735dda93d6a582712a7e60d7d356f08",
+      "changes": []
+    },
+    {
+      "output": "apple/domain-name-system-resolution.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/apple/domain-name-system-resolution.list",
+          "sha256": "b3e2fe7f7bee07084da2664b68595b59903f9738113be460d0f4798650641778",
+          "rules": 1
+        }
+      ],
+      "input_rules": 1,
+      "output_rules": 1,
+      "sha256": "eaf8e32a44adacdb0dac68100f041377ef600f3e9cdda4a44f77ac308fafb407",
+      "changes": []
+    },
+    {
+      "output": "apple/feedback-assistant.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/apple/feedback-assistant.list",
+          "sha256": "de112f54f0af0bc6e21a050715e39092bf7f48a7c1290bba44dea2ba412176d0",
+          "rules": 3
+        }
+      ],
+      "input_rules": 3,
+      "output_rules": 3,
+      "sha256": "a39616e4eb68a19f88627747b50f3262f6c09ab97d934805dd1808b2f7cefd0e",
+      "changes": []
+    },
+    {
+      "output": "apple/software-updates/app-store.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/apple/software-updates/app-store.list",
+          "sha256": "6a5be4b40883050ce01cd88d44cd1546ffdaa8f77a44cc6772df2e222ebbc728",
+          "rules": 5
+        }
+      ],
+      "input_rules": 5,
+      "output_rules": 4,
+      "sha256": "4da811fc17078c25dc3df17cfc6411c8ac1a7104ecdde30f978d63c64ec9d808",
+      "changes": [
+        {
+          "action": "covered",
+          "before": "DOMAIN,itunes.apple.com",
+          "by": "DOMAIN-SUFFIX,itunes.apple.com"
+        }
+      ]
+    },
+    {
+      "output": "apple/software-updates/macos-ios-and-tvos.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/apple/software-updates/macos-ios-and-tvos.list",
+          "sha256": "b57ddc66ea1ae4f3bcc96f6a01ed5c03459b869bd53473b412d0fa5bbbe09509",
+          "rules": 21
+        }
+      ],
+      "input_rules": 21,
+      "output_rules": 21,
+      "sha256": "0849d379720b1abf7f35417bfe7ad94e209dbda1a6c4df4eae08c3d0fe0069a2",
+      "changes": []
+    },
+    {
+      "output": "apple/icloud.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/apple/icloud.list",
+          "sha256": "82de211ed3619a3a0186737390bba628dbdc72c00cf2bbcc20cfe9748262b2f9",
+          "rules": 9
+        }
+      ],
+      "input_rules": 9,
+      "output_rules": 9,
+      "sha256": "49a59e491e331fdd0fc772ae3cf83be41e5bb3e3c8231afc9e88575e0e1a153f",
+      "changes": []
+    },
+    {
+      "output": "media/youtube.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/vendor/dler/youtube.list",
+          "sha256": "bbafe5c786f897023dad27f657ffaf33ff93570bc81cfd8e77d3a84cc36f1507",
+          "rules": 167
+        }
+      ],
+      "input_rules": 167,
+      "output_rules": 166,
+      "sha256": "0d2a9de2b6c705bd8bbbbe1c850944b13e23b8c85139a42b077edcaa10cdad90",
+      "changes": [
+        {
+          "action": "remove",
+          "before": "DOMAIN-SUFFIX,gvt1.com",
+          "reason": "Google 官方 ChromeOS 网络手册也将此域用于系统更新，不能归为 YouTube 专属。"
+        }
+      ]
+    },
+    {
+      "output": "media/netflix.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/vendor/dler/netflix.list",
+          "sha256": "ef257b1f82bd2fa08d96a48d3820e5f614f29c725f9b5ae4ba7ac3e9d8d990ab",
+          "rules": 7
+        }
+      ],
+      "input_rules": 7,
+      "output_rules": 7,
+      "sha256": "2add23f7b6ed161a17e59f62680bc67c658331c62ae208a191bc2199876d086e",
+      "changes": []
+    },
+    {
+      "output": "media/spotify.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/vendor/dler/spotify.list",
+          "sha256": "f246b37c350c0ada8916a3c2c17da2f87d481da7d2eab7cb687e2ba69d7b6c62",
+          "rules": 27
+        }
+      ],
+      "input_rules": 27,
+      "output_rules": 27,
+      "sha256": "aa12f63d2cdbaba4f597bff352c214efb21f6e888e588e12f49fdcf8c7927b3b",
+      "changes": []
+    },
+    {
+      "output": "media/bbc-iplayer.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/media/bbc-iplayer.list",
+          "sha256": "afe8cdbc2dd1a3cf4daf1d64de9c813aac6e6e852ac8149c7a58ec621a2448f1",
+          "rules": 12
+        }
+      ],
+      "input_rules": 12,
+      "output_rules": 12,
+      "sha256": "bf5b0c3e3fb780d527796ff3c4da481151da637935dcad65a7c5d7cd45f2d85d",
+      "changes": []
+    },
+    {
+      "output": "media/channel4.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/media/channel4.list",
+          "sha256": "14e9ad8a1ac1f7c435380d1d9571380fef0f5820ce1829084449fb98fd3668c2",
+          "rules": 2
+        }
+      ],
+      "input_rules": 2,
+      "output_rules": 2,
+      "sha256": "1a5b4c934db811d7fda3ecc471b96a638f3fd03e3bb2857c015af355f1849803",
+      "changes": []
+    },
+    {
+      "output": "media/itv.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/media/itv.list",
+          "sha256": "62e74da5b4220e10e200542900ef7e41f182c8b5bfc0a6e2719a3dbd8d71ba5f",
+          "rules": 2
+        }
+      ],
+      "input_rules": 2,
+      "output_rules": 2,
+      "sha256": "8257d552ec228113001cd11fb8c52f9f414e3547ad78148bd13e65da412e3fab",
+      "changes": []
+    },
+    {
+      "output": "media/viki.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/vendor/blackmatrix7/viki.list",
+          "sha256": "9522270d1be05efe8338d594e0dcb01da9161ec25be655a557fc7e22bb5b6048",
+          "rules": 8
+        }
+      ],
+      "input_rules": 8,
+      "output_rules": 8,
+      "sha256": "2915bab5ba561c5687952295e55388b4a6ae01ebf20b46f79a39c6fb2e532372",
+      "changes": []
+    },
+    {
+      "output": "media/rakuten.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/vendor/blackmatrix7/rakuten.list",
+          "sha256": "199de0858556f461c0f5add971e174955d5a5b6acf54dbda0bfba0bacc0a349c",
+          "rules": 18
+        }
+      ],
+      "input_rules": 18,
+      "output_rules": 18,
+      "sha256": "006d2344eae04e5a610007d425d099dc723872001366904beebab553fd153dcf",
+      "changes": []
+    },
+    {
+      "output": "media/peacock.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/media/peacock.list",
+          "sha256": "2c31c3a7320aeb28e7d0336def354fcfb9d8bee2e62c916aa25f8486d44c15f6",
+          "rules": 2
+        }
+      ],
+      "input_rules": 2,
+      "output_rules": 2,
+      "sha256": "be20096734d5842524731b0fee2aa52b26eda7966df074287809967e19995ba3",
+      "changes": []
+    },
+    {
+      "output": "media/paramount-plus.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/media/paramount-plus.list",
+          "sha256": "4666f437b73ce723778c51e960ef59444411c528f9fb4713655caa341ca3d99f",
+          "rules": 3
+        }
+      ],
+      "input_rules": 3,
+      "output_rules": 3,
+      "sha256": "d444eb019b3e80553a3f7681a7457d8f385dd431f79212bdbb4e6d0306702321",
+      "changes": []
+    },
+    {
+      "output": "media/shudder.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/media/shudder.list",
+          "sha256": "8fa85835fe9bba5bd59337182e5462a032dd15d37ca9958b8226d58ab55b8c00",
+          "rules": 1
+        }
+      ],
+      "input_rules": 1,
+      "output_rules": 1,
+      "sha256": "1107a001d0f6de19db730a74a13c1e7321aac38f8afb6f08a7cc6bc7d228f8f2",
+      "changes": []
+    },
+    {
+      "output": "media/sony.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/media/sony.list",
+          "sha256": "f88bcdff6b4cb1ea5cdb892b1ac47db5af54ae577b29c04491c276324b157aac",
+          "rules": 6
+        }
+      ],
+      "input_rules": 6,
+      "output_rules": 6,
+      "sha256": "e69df96dd907178544dfcb9f2a6dce3a971a2abc2d336dfa166ce52c2a23ef92",
+      "changes": []
+    },
+    {
+      "output": "media/starz-cdn.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/media/starz-cdn.list",
+          "sha256": "cd3f107abeb4e62c191f82c380c5fc9c497cf114fb7c3cd4a2257ae0cc7799da",
+          "rules": 9
+        }
+      ],
+      "input_rules": 9,
+      "output_rules": 9,
+      "sha256": "5911745115760f2624bc31faf34504e3cf29f103f0c3e686344f9e5e9cff1940",
+      "changes": []
+    },
+    {
+      "output": "media/tiktok.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/vendor/blackmatrix7/tiktok.list",
+          "sha256": "a1a2137a9d26e2785ac7ca54e1ab04155485fb29002daee59cbcb4d1e38e2f05",
+          "rules": 28
+        }
+      ],
+      "input_rules": 28,
+      "output_rules": 28,
+      "sha256": "c4ef397b26a28bb5660a7ddc4be0b4e9df9a67957b016c16d32949d0e53ba7aa",
+      "changes": []
+    },
+    {
+      "output": "media/vevo.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/media/vevo.list",
+          "sha256": "11c9b2c728d3d158cf9f361bc3f1a71fd5b1bc16b72136ef3180bdf73ff1187f",
+          "rules": 2
+        }
+      ],
+      "input_rules": 2,
+      "output_rules": 2,
+      "sha256": "c09494296d2de36ef81e811e4633724cc155b24fc478b248ad75f790b3210858",
+      "changes": []
+    },
+    {
+      "output": "media/bilibili.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/media/bilibili.list",
+          "sha256": "6174f0bca96d7b6ea9b57880651fe6e3eba8735820a92d7a705e12dbace6e7c1",
+          "rules": 14
+        }
+      ],
+      "input_rules": 14,
+      "output_rules": 14,
+      "sha256": "19b4cad93f075fa04f737e737838ec28fb3e33354391d6b3d7ddd4eb3322fbca",
+      "changes": []
+    },
+    {
+      "output": "media/iqiyi.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/media/iqiyi.list",
+          "sha256": "f481e7a46269be3ba529ac7a5ffc55054ad552b85ae273f69fe7847a270075c0",
+          "rules": 17
+        }
+      ],
+      "input_rules": 17,
+      "output_rules": 17,
+      "sha256": "b13a05579f578d1cf56b3524bcbdc63b4e1a7ffbd97dc3829924e7aaf332a5fc",
+      "changes": [
+        {
+          "action": "canonicalize",
+          "before": "IP-CIDR,223.119.62.225/28,no-resolve",
+          "after": "IP-CIDR,223.119.62.224/28,no-resolve",
+          "reason": "规范网络地址写法，保留原前缀长度和网络范围"
+        },
+        {
+          "action": "order",
+          "reason": "域名/应用规则先于 IP/ASN，分区内保持原顺序"
+        }
+      ]
+    },
+    {
+      "output": "media/tencent-video.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/media/tencent-video.list",
+          "sha256": "97dca36e51323cf04b9963c865a6cd6541101fc763aa5297b3cd4289a5ddf8b8",
+          "rules": 1
+        }
+      ],
+      "input_rules": 1,
+      "output_rules": 1,
+      "sha256": "ca1e4b2a82c5c60a63247de14275b34140d01318d55e40d3ac45b6ad61617503",
+      "changes": []
+    },
+    {
+      "output": "media/youku.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/media/youku.list",
+          "sha256": "ba36805f2b98ab9f1411db9581e0ff1d4c4fb70683ca7dec022325245e30955a",
+          "rules": 1
+        }
+      ],
+      "input_rules": 1,
+      "output_rules": 1,
+      "sha256": "b64ffe8447f095aa77740c97378a67e05c145235d7aa606ee7cef3a3c3230b32",
+      "changes": []
+    },
+    {
+      "output": "media/netease-music.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/media/netease-music.list",
+          "sha256": "ae1cfeb19ac305d6f0ac8db12a61c64e0c7c2076bdbecda5570d7f58624e5118",
+          "rules": 25
+        }
+      ],
+      "input_rules": 25,
+      "output_rules": 25,
+      "sha256": "e2cad24048b87e1132739e190996d3e6b015f8d3175e0db182f6c14234b935f3",
+      "changes": []
+    },
+    {
+      "output": "apps/steam.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/vendor/dler/steam.list",
+          "sha256": "35b222cbca9f0109d15f3ec979062d3ef1d803fbeb92d62669cbd86f55078b92",
+          "rules": 6
+        }
+      ],
+      "input_rules": 6,
+      "output_rules": 6,
+      "sha256": "19a3aec2c0e451ad7516f3f6d33a874f7a82dd316e1d19fde038a4d5f2c4eded",
+      "changes": []
+    },
+    {
+      "output": "apps/wechat.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/vendor/blackmatrix7/wechat.list",
+          "sha256": "01e55617280a7b03db13397fcd2fe4bb3be559f728145fb1fbb054036d75d0bc",
+          "rules": 332
+        }
+      ],
+      "input_rules": 332,
+      "output_rules": 332,
+      "sha256": "9fa03cd7a8d03281bd9ca719a12566aef0f62e942b7158f6e25de3b7f4d63537",
+      "changes": [
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,101.226.129.",
+          "after": "IP-CIDR,101.226.129.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,101.226.211.",
+          "after": "IP-CIDR,101.226.211.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,101.226.222.",
+          "after": "IP-CIDR,101.226.222.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,101.226.226.",
+          "after": "IP-CIDR,101.226.226.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,101.227.162.",
+          "after": "IP-CIDR,101.227.162.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,101.32.104.",
+          "after": "IP-CIDR,101.32.104.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,101.32.118.",
+          "after": "IP-CIDR,101.32.118.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,101.32.133.",
+          "after": "IP-CIDR,101.32.133.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,101.33.110.",
+          "after": "IP-CIDR,101.33.110.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,101.89.15.",
+          "after": "IP-CIDR,101.89.15.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,101.89.38.",
+          "after": "IP-CIDR,101.89.38.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,101.89.50.",
+          "after": "IP-CIDR,101.89.50.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,101.91.22.",
+          "after": "IP-CIDR,101.91.22.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,101.91.34.",
+          "after": "IP-CIDR,101.91.34.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,101.91.37.",
+          "after": "IP-CIDR,101.91.37.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,101.91.5.",
+          "after": "IP-CIDR,101.91.5.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,101.91.69.",
+          "after": "IP-CIDR,101.91.69.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,101.91.71.",
+          "after": "IP-CIDR,101.91.71.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,106.225.231.",
+          "after": "IP-CIDR,106.225.231.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,109.244.169.",
+          "after": "IP-CIDR,109.244.169.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,110.52.193.",
+          "after": "IP-CIDR,110.52.193.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,110.53.246.",
+          "after": "IP-CIDR,110.53.246.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,111.0.26.",
+          "after": "IP-CIDR,111.0.26.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,111.30.164.",
+          "after": "IP-CIDR,111.30.164.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,111.45.68.",
+          "after": "IP-CIDR,111.45.68.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,111.45.69.",
+          "after": "IP-CIDR,111.45.69.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,111.45.70.",
+          "after": "IP-CIDR,111.45.70.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,112.53.25.",
+          "after": "IP-CIDR,112.53.25.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,112.53.36.",
+          "after": "IP-CIDR,112.53.36.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,112.60.0.",
+          "after": "IP-CIDR,112.60.0.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,112.60.13.",
+          "after": "IP-CIDR,112.60.13.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,112.60.14.",
+          "after": "IP-CIDR,112.60.14.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,112.60.8.",
+          "after": "IP-CIDR,112.60.8.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,112.65.193.",
+          "after": "IP-CIDR,112.65.193.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,112.90.43.",
+          "after": "IP-CIDR,112.90.43.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,113.105.154.",
+          "after": "IP-CIDR,113.105.154.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,113.105.165.",
+          "after": "IP-CIDR,113.105.165.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,113.105.166.",
+          "after": "IP-CIDR,113.105.166.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,113.96.154.",
+          "after": "IP-CIDR,113.96.154.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,113.96.156.",
+          "after": "IP-CIDR,113.96.156.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,113.96.16.",
+          "after": "IP-CIDR,113.96.16.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,113.96.18.",
+          "after": "IP-CIDR,113.96.18.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,113.96.202.",
+          "after": "IP-CIDR,113.96.202.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,113.96.208.",
+          "after": "IP-CIDR,113.96.208.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,113.96.209.",
+          "after": "IP-CIDR,113.96.209.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,113.96.210.",
+          "after": "IP-CIDR,113.96.210.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,113.96.232.",
+          "after": "IP-CIDR,113.96.232.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,113.96.233.",
+          "after": "IP-CIDR,113.96.233.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,113.96.237.",
+          "after": "IP-CIDR,113.96.237.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,113.96.83.",
+          "after": "IP-CIDR,113.96.83.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,113.96.98.",
+          "after": "IP-CIDR,113.96.98.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,115.231.229.",
+          "after": "IP-CIDR,115.231.229.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,115.238.197.",
+          "after": "IP-CIDR,115.238.197.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,116.128.133.",
+          "after": "IP-CIDR,116.128.133.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,116.128.163.",
+          "after": "IP-CIDR,116.128.163.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,116.128.171.",
+          "after": "IP-CIDR,116.128.171.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,116.253.60.",
+          "after": "IP-CIDR,116.253.60.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,116.253.61.",
+          "after": "IP-CIDR,116.253.61.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,117.135.133.",
+          "after": "IP-CIDR,117.135.133.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,117.184.242.",
+          "after": "IP-CIDR,117.184.242.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,117.187.243.",
+          "after": "IP-CIDR,117.187.243.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,117.41.224.",
+          "after": "IP-CIDR,117.41.224.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,119.147.190.",
+          "after": "IP-CIDR,119.147.190.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,119.147.227.",
+          "after": "IP-CIDR,119.147.227.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,119.147.83.",
+          "after": "IP-CIDR,119.147.83.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,119.188.155.",
+          "after": "IP-CIDR,119.188.155.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,119.39.81.",
+          "after": "IP-CIDR,119.39.81.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,120.204.0.",
+          "after": "IP-CIDR,120.204.0.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,120.204.10.",
+          "after": "IP-CIDR,120.204.10.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,120.221.179.",
+          "after": "IP-CIDR,120.221.179.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,120.232.27.",
+          "after": "IP-CIDR,120.232.27.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,120.232.33.",
+          "after": "IP-CIDR,120.232.33.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,120.232.65.",
+          "after": "IP-CIDR,120.232.65.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,120.232.68.",
+          "after": "IP-CIDR,120.232.68.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,120.233.36.",
+          "after": "IP-CIDR,120.233.36.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,120.237.199.",
+          "after": "IP-CIDR,120.237.199.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,120.241.149.",
+          "after": "IP-CIDR,120.241.149.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,120.241.150.",
+          "after": "IP-CIDR,120.241.150.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,120.241.17.",
+          "after": "IP-CIDR,120.241.17.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,120.241.186.",
+          "after": "IP-CIDR,120.241.186.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,120.241.189.",
+          "after": "IP-CIDR,120.241.189.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,120.241.190.",
+          "after": "IP-CIDR,120.241.190.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,120.241.21.",
+          "after": "IP-CIDR,120.241.21.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,120.241.25.",
+          "after": "IP-CIDR,120.241.25.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,120.241.92.",
+          "after": "IP-CIDR,120.241.92.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,121.12.115.",
+          "after": "IP-CIDR,121.12.115.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,121.14.142.",
+          "after": "IP-CIDR,121.14.142.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,121.14.98.",
+          "after": "IP-CIDR,121.14.98.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,121.51.124.",
+          "after": "IP-CIDR,121.51.124.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,121.51.130.",
+          "after": "IP-CIDR,121.51.130.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,122.225.36.",
+          "after": "IP-CIDR,122.225.36.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,122.246.25.",
+          "after": "IP-CIDR,122.246.25.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,123.150.208.",
+          "after": "IP-CIDR,123.150.208.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,123.150.76.",
+          "after": "IP-CIDR,123.150.76.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,123.151.190.",
+          "after": "IP-CIDR,123.151.190.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,123.161.61.",
+          "after": "IP-CIDR,123.161.61.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,123.184.36.",
+          "after": "IP-CIDR,123.184.36.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,124.232.162.",
+          "after": "IP-CIDR,124.232.162.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,129.226.107.",
+          "after": "IP-CIDR,129.226.107.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,129.226.3.",
+          "after": "IP-CIDR,129.226.3.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,14.17.41.",
+          "after": "IP-CIDR,14.17.41.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,14.17.73.",
+          "after": "IP-CIDR,14.17.73.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,14.18.175.",
+          "after": "IP-CIDR,14.18.175.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,14.18.178.",
+          "after": "IP-CIDR,14.18.178.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,14.18.180.",
+          "after": "IP-CIDR,14.18.180.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,14.18.200.",
+          "after": "IP-CIDR,14.18.200.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,14.18.245.",
+          "after": "IP-CIDR,14.18.245.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,14.215.138.",
+          "after": "IP-CIDR,14.215.138.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,14.215.158.",
+          "after": "IP-CIDR,14.215.158.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,14.215.166.",
+          "after": "IP-CIDR,14.215.166.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,14.215.167.",
+          "after": "IP-CIDR,14.215.167.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,14.215.85.",
+          "after": "IP-CIDR,14.215.85.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,14.22.0.",
+          "after": "IP-CIDR,14.22.0.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,14.22.33.",
+          "after": "IP-CIDR,14.22.33.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,14.22.4.",
+          "after": "IP-CIDR,14.22.4.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,14.22.5.",
+          "after": "IP-CIDR,14.22.5.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,14.29.100.",
+          "after": "IP-CIDR,14.29.100.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,14.29.101.",
+          "after": "IP-CIDR,14.29.101.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,140.207.119.",
+          "after": "IP-CIDR,140.207.119.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,150.109.90.",
+          "after": "IP-CIDR,150.109.90.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,157.148.33.",
+          "after": "IP-CIDR,157.148.33.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,157.148.42.",
+          "after": "IP-CIDR,157.148.42.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,157.148.45.",
+          "after": "IP-CIDR,157.148.45.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,157.148.51.",
+          "after": "IP-CIDR,157.148.51.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,157.148.55.",
+          "after": "IP-CIDR,157.148.55.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,157.255.135.",
+          "after": "IP-CIDR,157.255.135.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,157.255.173.",
+          "after": "IP-CIDR,157.255.173.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,157.255.174.",
+          "after": "IP-CIDR,157.255.174.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,157.255.192.",
+          "after": "IP-CIDR,157.255.192.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,157.255.243.",
+          "after": "IP-CIDR,157.255.243.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,157.255.244.",
+          "after": "IP-CIDR,157.255.244.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,157.255.245.",
+          "after": "IP-CIDR,157.255.245.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,163.177.81.",
+          "after": "IP-CIDR,163.177.81.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,163.177.89.",
+          "after": "IP-CIDR,163.177.89.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,163.177.90.",
+          "after": "IP-CIDR,163.177.90.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,175.27.0.",
+          "after": "IP-CIDR,175.27.0.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,175.6.13.",
+          "after": "IP-CIDR,175.6.13.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,180.111.199.",
+          "after": "IP-CIDR,180.111.199.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,180.163.15.",
+          "after": "IP-CIDR,180.163.15.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,180.163.25.",
+          "after": "IP-CIDR,180.163.25.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,180.163.26.",
+          "after": "IP-CIDR,180.163.26.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,180.96.0.",
+          "after": "IP-CIDR,180.96.0.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,180.96.2.",
+          "after": "IP-CIDR,180.96.2.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,180.97.8.",
+          "after": "IP-CIDR,180.97.8.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,182.254.78.",
+          "after": "IP-CIDR,182.254.78.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,182.254.92.",
+          "after": "IP-CIDR,182.254.92.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,183.131.56.",
+          "after": "IP-CIDR,183.131.56.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,183.131.57.",
+          "after": "IP-CIDR,183.131.57.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,183.192.169.",
+          "after": "IP-CIDR,183.192.169.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,183.194.238.",
+          "after": "IP-CIDR,183.194.238.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,183.195.236.",
+          "after": "IP-CIDR,183.195.236.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,183.232.175.",
+          "after": "IP-CIDR,183.232.175.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,183.232.246.",
+          "after": "IP-CIDR,183.232.246.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,183.232.94.",
+          "after": "IP-CIDR,183.232.94.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,183.232.95.",
+          "after": "IP-CIDR,183.232.95.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,183.232.96.",
+          "after": "IP-CIDR,183.232.96.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,183.240.115.",
+          "after": "IP-CIDR,183.240.115.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,183.240.118.",
+          "after": "IP-CIDR,183.240.118.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,183.240.48.",
+          "after": "IP-CIDR,183.240.48.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,183.240.56.",
+          "after": "IP-CIDR,183.240.56.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,183.240.80.",
+          "after": "IP-CIDR,183.240.80.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,183.240.81.",
+          "after": "IP-CIDR,183.240.81.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,183.3.224.",
+          "after": "IP-CIDR,183.3.224.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,183.3.226.",
+          "after": "IP-CIDR,183.3.226.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,183.3.233.",
+          "after": "IP-CIDR,183.3.233.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,183.3.234.",
+          "after": "IP-CIDR,183.3.234.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,183.3.235.",
+          "after": "IP-CIDR,183.3.235.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,183.47.101.",
+          "after": "IP-CIDR,183.47.101.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,183.47.115.",
+          "after": "IP-CIDR,183.47.115.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,183.47.117.",
+          "after": "IP-CIDR,183.47.117.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,183.47.97.",
+          "after": "IP-CIDR,183.47.97.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,183.60.131.",
+          "after": "IP-CIDR,183.60.131.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,183.60.155.",
+          "after": "IP-CIDR,183.60.155.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,183.61.13.",
+          "after": "IP-CIDR,183.61.13.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,203.205.232.",
+          "after": "IP-CIDR,203.205.232.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,203.205.234.",
+          "after": "IP-CIDR,203.205.234.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,203.205.235.",
+          "after": "IP-CIDR,203.205.235.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,203.205.253.",
+          "after": "IP-CIDR,203.205.253.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,203.205.254.",
+          "after": "IP-CIDR,203.205.254.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,211.95.137.",
+          "after": "IP-CIDR,211.95.137.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,211.95.138.",
+          "after": "IP-CIDR,211.95.138.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,218.68.88.",
+          "after": "IP-CIDR,218.68.88.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,218.68.90.",
+          "after": "IP-CIDR,218.68.90.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,219.135.59.",
+          "after": "IP-CIDR,219.135.59.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,220.194.91.",
+          "after": "IP-CIDR,220.194.91.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,220.194.93.",
+          "after": "IP-CIDR,220.194.93.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,220.196.144.",
+          "after": "IP-CIDR,220.196.144.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,220.249.243.",
+          "after": "IP-CIDR,220.249.243.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,221.181.97.",
+          "after": "IP-CIDR,221.181.97.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,221.181.99.",
+          "after": "IP-CIDR,221.181.99.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,223.166.152.",
+          "after": "IP-CIDR,223.166.152.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,27.19.222.",
+          "after": "IP-CIDR,27.19.222.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,36.136.108.",
+          "after": "IP-CIDR,36.136.108.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,36.152.4.",
+          "after": "IP-CIDR,36.152.4.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,36.155.202.",
+          "after": "IP-CIDR,36.155.202.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,36.158.189.",
+          "after": "IP-CIDR,36.158.189.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,36.158.242.",
+          "after": "IP-CIDR,36.158.242.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,36.250.230.",
+          "after": "IP-CIDR,36.250.230.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,42.187.131.",
+          "after": "IP-CIDR,42.187.131.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,42.187.182.",
+          "after": "IP-CIDR,42.187.182.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,42.187.184.",
+          "after": "IP-CIDR,42.187.184.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,42.202.141.",
+          "after": "IP-CIDR,42.202.141.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,43.156.222.",
+          "after": "IP-CIDR,43.156.222.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,43.156.86.",
+          "after": "IP-CIDR,43.156.86.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,58.144.193.",
+          "after": "IP-CIDR,58.144.193.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,58.144.248.",
+          "after": "IP-CIDR,58.144.248.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,58.247.204.",
+          "after": "IP-CIDR,58.247.204.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,58.247.205.",
+          "after": "IP-CIDR,58.247.205.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,58.250.136.",
+          "after": "IP-CIDR,58.250.136.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,58.251.100.",
+          "after": "IP-CIDR,58.251.100.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,58.251.111.",
+          "after": "IP-CIDR,58.251.111.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,58.251.117.",
+          "after": "IP-CIDR,58.251.117.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,58.251.80.",
+          "after": "IP-CIDR,58.251.80.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,58.251.81.",
+          "after": "IP-CIDR,58.251.81.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,58.251.82.",
+          "after": "IP-CIDR,58.251.82.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,58.49.138.",
+          "after": "IP-CIDR,58.49.138.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,59.36.89.",
+          "after": "IP-CIDR,59.36.89.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,59.36.97.",
+          "after": "IP-CIDR,59.36.97.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,59.37.96.",
+          "after": "IP-CIDR,59.37.96.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,59.37.97.",
+          "after": "IP-CIDR,59.37.97.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,60.13.97.",
+          "after": "IP-CIDR,60.13.97.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,61.151.165.",
+          "after": "IP-CIDR,61.151.165.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,61.151.167.",
+          "after": "IP-CIDR,61.151.167.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,61.151.168.",
+          "after": "IP-CIDR,61.151.168.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,61.151.183.",
+          "after": "IP-CIDR,61.151.183.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,61.151.206.",
+          "after": "IP-CIDR,61.151.206.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,61.151.207.",
+          "after": "IP-CIDR,61.151.207.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,61.190.114.",
+          "after": "IP-CIDR,61.190.114.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,61.191.60.",
+          "after": "IP-CIDR,61.191.60.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,61.241.31.",
+          "after": "IP-CIDR,61.241.31.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,61.241.44.",
+          "after": "IP-CIDR,61.241.44.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,61.241.47.",
+          "after": "IP-CIDR,61.241.47.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "convert",
+          "before": "DOMAIN-KEYWORD,61.241.49.",
+          "after": "IP-CIDR,61.241.49.0/24,no-resolve",
+          "reason": "将来源中的 IPv4 三段前缀明确为 /24，避免匹配含数字的无关域名"
+        },
+        {
+          "action": "order",
+          "reason": "域名/应用规则先于 IP/ASN，分区内保持原顺序"
+        }
+      ]
+    },
+    {
+      "output": "apps/binance.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/vendor/blackmatrix7/binance.list",
+          "sha256": "034b1730ac0adb39a8a88685d6f6864a7070a14d722acbf8f3859806b28b92a4",
+          "rules": 12
+        }
+      ],
+      "input_rules": 12,
+      "output_rules": 12,
+      "sha256": "5cdb2023201239834890fac05bac2ba107e8f6f1203b23422ea4fb787d71dbab",
+      "changes": []
+    },
+    {
+      "output": "apps/blockchain.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/blockchain.list",
+          "sha256": "c12fcbddad77c2af67944320b32a7a6a46919a6653312229a79cb0e7151beb9a",
+          "rules": 1
+        }
+      ],
+      "input_rules": 1,
+      "output_rules": 1,
+      "sha256": "b67d17eabac51aa80127548d535ea42a757eaa8e25a137987bfdd22ecef6ac68",
+      "changes": []
+    },
+    {
+      "output": "network/email.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/email.list",
+          "sha256": "4bcabad6f911e585b048393a51a5b8fdca2b33b9b139eae02c72428be261f318",
+          "rules": 4
+        }
+      ],
+      "input_rules": 4,
+      "output_rules": 4,
+      "sha256": "1f16e5f05bc6bf6b6c2a2298806b89027df0b175bbde636044789a7e0237c9c2",
+      "changes": []
+    },
+    {
+      "output": "apps/google-search.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/google-search.list",
+          "sha256": "6adfee55ca0d4119c25f1e1fa70c5aa8d847154dbdf89d583ed22abc398392fa",
+          "rules": 190
+        }
+      ],
+      "input_rules": 190,
+      "output_rules": 191,
+      "sha256": "354747ff1289ce23f6f55919f1568a54932a1c59e50a14c8df7246888d8bb3bf",
+      "changes": [
+        {
+          "action": "add",
+          "after": "DOMAIN-SUFFIX,gvt1.com",
+          "reason": "Google 官方 ChromeOS 更新/公共资源域，放在业务专用规则之后的 Google 通用组。"
+        }
+      ]
+    },
+    {
+      "output": "apps/microsoft.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/microsoft.list",
+          "sha256": "f8f8de2c288eea2e6f3ca225ec7383fb32031c32bf383dda582a4003e034cc79",
+          "rules": 25
+        }
+      ],
+      "input_rules": 25,
+      "output_rules": 25,
+      "sha256": "2481b8ee2379e979f9268a025385e75c36d3fd012055df4bc7196d450725a0bf",
+      "changes": []
+    },
+    {
+      "output": "apps/misc.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/misc.list",
+          "sha256": "1b310c6e60683ccf2427f2f22c5f0e87e10eb348e80747faf46e80ca95249810",
+          "rules": 7
+        }
+      ],
+      "input_rules": 7,
+      "output_rules": 7,
+      "sha256": "4d7fd66030ebce715fc61877092d4f2753eb0a9e64feba6919cecfded75bcc7f",
+      "changes": []
+    },
+    {
+      "output": "apps/paypal.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/paypal.list",
+          "sha256": "bafb17e365c03eb44f20e5c4f771f161857076bfb0e9115e14756fcca3608f48",
+          "rules": 4
+        }
+      ],
+      "input_rules": 4,
+      "output_rules": 4,
+      "sha256": "1338bd6ce38ccb8230381b4916838f23d68e0c583640b107f210fb2d53c0e080",
+      "changes": []
+    },
+    {
+      "output": "network/bt.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/bt.list",
+          "sha256": "ee1b0231081e61b2a70d2adcd4b8e294f882c0b4547bf47fcfda3f17ddd00e70",
+          "rules": 3
+        }
+      ],
+      "input_rules": 3,
+      "output_rules": 3,
+      "sha256": "5295835f72dde06e4abcc5d074a712db08d4ad60a6841bcc8a90caf7bca936bb",
+      "changes": []
+    },
+    {
+      "output": "apps/teamviewer.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/vendor/blackmatrix7/teamviewer.list",
+          "sha256": "3775059d482bcc513f6b3754c7234150d495444bcac968ac238b4b9a414c6498",
+          "rules": 8
+        }
+      ],
+      "input_rules": 8,
+      "output_rules": 7,
+      "sha256": "eb0fbb351038b26a3b9cabcaded77787a2a99070fc49130f03920e62c5ed3c10",
+      "changes": [
+        {
+          "action": "remove",
+          "before": "IP-CIDR,172.16.102.56/32,no-resolve",
+          "reason": "RFC1918 私网地址不可作为全局 TeamViewer 服务指纹；交还局域网/用户规则。"
+        }
+      ]
+    },
+    {
+      "output": "apps/telegram.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/vendor/get-some-fries/telegram.list",
+          "sha256": "cac4fa2ce33125fca4f9fa529360582a0d9d5ffba3ba6bf3d9c9497e0b194d35",
+          "rules": 20
+        }
+      ],
+      "input_rules": 20,
+      "output_rules": 26,
+      "sha256": "912a89d51d5126aa0e4f72f234d827e17e47a9a19700341b1d6132529342bb84",
+      "changes": [
+        {
+          "action": "remove",
+          "before": "IP-CIDR,109.239.140.0/24,no-resolve",
+          "reason": "以 Telegram 官方精确 CIDR 清单替代历史 IP/ASN 范围"
+        },
+        {
+          "action": "remove",
+          "before": "IP-CIDR,5.28.192.0/18,no-resolve",
+          "reason": "以 Telegram 官方精确 CIDR 清单替代历史 IP/ASN 范围"
+        },
+        {
+          "action": "remove",
+          "before": "IP-CIDR6,2a0a:f280::/32,no-resolve",
+          "reason": "以 Telegram 官方精确 CIDR 清单替代历史 IP/ASN 范围"
+        },
+        {
+          "action": "remove",
+          "before": "IP-ASN,44907,no-resolve",
+          "reason": "以 Telegram 官方精确 CIDR 清单替代历史 IP/ASN 范围"
+        },
+        {
+          "action": "remove",
+          "before": "IP-ASN,62014,no-resolve",
+          "reason": "以 Telegram 官方精确 CIDR 清单替代历史 IP/ASN 范围"
+        },
+        {
+          "action": "remove",
+          "before": "IP-ASN,62041,no-resolve",
+          "reason": "以 Telegram 官方精确 CIDR 清单替代历史 IP/ASN 范围"
+        },
+        {
+          "action": "remove",
+          "before": "IP-ASN,59930,no-resolve",
+          "reason": "以 Telegram 官方精确 CIDR 清单替代历史 IP/ASN 范围"
+        },
+        {
+          "action": "remove",
+          "before": "IP-ASN,211157,no-resolve",
+          "reason": "以 Telegram 官方精确 CIDR 清单替代历史 IP/ASN 范围"
+        },
+        {
+          "action": "add",
+          "after": "IP-CIDR,91.108.56.0/22,no-resolve",
+          "reason": "Telegram 官方 CIDR"
+        },
+        {
+          "action": "add",
+          "after": "IP-CIDR,91.108.4.0/22,no-resolve",
+          "reason": "Telegram 官方 CIDR"
+        },
+        {
+          "action": "add",
+          "after": "IP-CIDR,91.108.8.0/22,no-resolve",
+          "reason": "Telegram 官方 CIDR"
+        },
+        {
+          "action": "add",
+          "after": "IP-CIDR,91.108.16.0/22,no-resolve",
+          "reason": "Telegram 官方 CIDR"
+        },
+        {
+          "action": "add",
+          "after": "IP-CIDR,91.108.12.0/22,no-resolve",
+          "reason": "Telegram 官方 CIDR"
+        },
+        {
+          "action": "add",
+          "after": "IP-CIDR,149.154.160.0/20,no-resolve",
+          "reason": "Telegram 官方 CIDR"
+        },
+        {
+          "action": "add",
+          "after": "IP-CIDR,91.105.192.0/23,no-resolve",
+          "reason": "Telegram 官方 CIDR"
+        },
+        {
+          "action": "add",
+          "after": "IP-CIDR,91.108.20.0/22,no-resolve",
+          "reason": "Telegram 官方 CIDR"
+        },
+        {
+          "action": "add",
+          "after": "IP-CIDR,185.76.151.0/24,no-resolve",
+          "reason": "Telegram 官方 CIDR"
+        },
+        {
+          "action": "add",
+          "after": "IP-CIDR6,2001:b28:f23d::/48,no-resolve",
+          "reason": "Telegram 官方 CIDR"
+        },
+        {
+          "action": "add",
+          "after": "IP-CIDR6,2001:b28:f23f::/48,no-resolve",
+          "reason": "Telegram 官方 CIDR"
+        },
+        {
+          "action": "add",
+          "after": "IP-CIDR6,2001:67c:4e8::/48,no-resolve",
+          "reason": "Telegram 官方 CIDR"
+        },
+        {
+          "action": "add",
+          "after": "IP-CIDR6,2001:b28:f23c::/48,no-resolve",
+          "reason": "Telegram 官方 CIDR"
+        },
+        {
+          "action": "add",
+          "after": "IP-CIDR6,2a0a:f280::/32,no-resolve",
+          "reason": "Telegram 官方 CIDR"
+        }
+      ]
+    },
+    {
+      "output": "apps/speedtest.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/vendor/dler/speedtest.list",
+          "sha256": "1babeec8cff9e1ada9aa9f14ac6bdda05e3d3fbfbf607f605f485ffe960ebdb4",
+          "rules": 8
+        }
+      ],
+      "input_rules": 8,
+      "output_rules": 8,
+      "sha256": "c0fdb114e72bfc723afc8b295454070d88c2abf2e9ec560ad685884a63f331a6",
+      "changes": []
+    },
+    {
+      "output": "network/proxy.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/vendor/dler/proxy.list",
+          "sha256": "463c04b811c6bea15e95928328d19248746e9c81c625a4c97e8fa550a5abfdb1",
+          "rules": 1005
+        }
+      ],
+      "input_rules": 1005,
+      "output_rules": 1005,
+      "sha256": "f87bb4d389db53dedecab83b8923b4149e0eaf0788b8bc670943692346b39025",
+      "changes": [
+        {
+          "action": "order",
+          "reason": "域名/应用规则先于 IP/ASN，分区内保持原顺序"
+        }
+      ]
+    },
+    {
+      "output": "network/domestic.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/vendor/dler/domestic.list",
+          "sha256": "83178785f888ee4216f11e60529d4621c31fa0b15e2df86621bf61f2f6d10478",
+          "rules": 267
+        },
+        {
+          "path": "surge/surge3/provider/domestic.list",
+          "sha256": "ac57497ade1d77e9391deaf94efab061ee28316a34cc422b89a377cb44ecf51d",
+          "rules": 5
+        }
+      ],
+      "input_rules": 272,
+      "output_rules": 269,
+      "sha256": "7751112db50a33cd38676abcc02d736fa69cfb87567ac923c1dd8bdd81e5fb8a",
+      "changes": [
+        {
+          "action": "deduplicate",
+          "before": "DOMAIN-SUFFIX,95516.com"
+        },
+        {
+          "action": "deduplicate",
+          "before": "DOMAIN-SUFFIX,jianshuapi.com"
+        },
+        {
+          "action": "deduplicate",
+          "before": "DOMAIN-SUFFIX,qcloud.com"
+        },
+        {
+          "action": "order",
+          "reason": "域名/应用规则先于 IP/ASN，分区内保持原顺序"
+        }
+      ]
+    },
+    {
+      "output": "network/china-asn.list",
+      "sources": [
+        {
+          "path": "surge/surge3/provider/vendor/get-some-fries/china-asn.list",
+          "sha256": "50f106604b9da0b0adc3f17f0d004dd129684ae95811ac29f13471332c8bcafa",
+          "rules": 5076
+        }
+      ],
+      "input_rules": 5076,
+      "output_rules": 5076,
+      "sha256": "2f598e0ebf6fef198beed7a2241fb7eeb89020af32b553d3ab82090f4f31dbbb",
+      "changes": []
+    }
+  ],
+  "total_input_rules": 7438,
+  "total_output_rules": 7432
+}

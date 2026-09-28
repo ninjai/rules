@@ -1,0 +1,742 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-09-29",
+  "official_sources": [
+    {
+      "url": "https://core.telegram.org/resources/cidr.txt",
+      "file": "surge/surge3/provider/curated-sources/telegram-cidr-20260929.txt",
+      "sha256": "3ecd072cedf72eceee6961b18a51e37f905d5ce4a656a5d24cf5fea63e6ec651"
+    },
+    {
+      "url": "https://support.google.com/chrome/a/answer/6334001?hl=en"
+    },
+    {
+      "url": "https://manual.nssurge.com/rules/domain.html"
+    },
+    {
+      "url": "https://manual.nssurge.com/rules/ip.html"
+    }
+  ],
+  "entries": [
+    {
+      "output": "media/apple-news.list",
+      "inputs": [
+        "surge/surge3/provider/media/apple-news.list",
+        "surge/surge3/provider/vendor/nsringo/apple-news.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/media/apple-news.list",
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/vendor/nsringo/apple-news.list"
+      ],
+      "policy": "🦁️[Apple News]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "apple/additional-content.list",
+      "inputs": [
+        "surge/surge3/provider/apple/additional-content.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/apple/additional-content.list"
+      ],
+      "policy": "🦁️[Apple CDN]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "apple/apple-developer/app-notarization.list",
+      "inputs": [
+        "surge/surge3/provider/apple/apple-developer/app-notarization.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/apple/apple-developer/app-notarization.list"
+      ],
+      "policy": "🦁️[Apple]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "apple/apple-developer/app-validation.list",
+      "inputs": [
+        "surge/surge3/provider/apple/apple-developer/app-validation.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/apple/apple-developer/app-validation.list"
+      ],
+      "policy": "🦁️[Apple]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "apple/apple-diagnostics.list",
+      "inputs": [
+        "surge/surge3/provider/apple/apple-diagnostics.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/apple/apple-diagnostics.list"
+      ],
+      "policy": "🦁️[Apple]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "apple/apple-id.list",
+      "inputs": [
+        "surge/surge3/provider/apple/apple-id.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/apple/apple-id.list"
+      ],
+      "policy": "🦁️[Apple ID]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "apple/apple-school-manager-and-apple-business-manager.list",
+      "inputs": [
+        "surge/surge3/provider/apple/apple-school-manager-and-apple-business-manager.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/apple/apple-school-manager-and-apple-business-manager.list"
+      ],
+      "policy": "🦁️[Apple CDN]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "apple/carrier-updates.list",
+      "inputs": [
+        "surge/surge3/provider/apple/carrier-updates.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/apple/carrier-updates.list"
+      ],
+      "policy": "🦁️[Apple Setup]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "apple/certificate-validation.list",
+      "inputs": [
+        "surge/surge3/provider/apple/certificate-validation.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/apple/certificate-validation.list"
+      ],
+      "policy": "🦁️[Apple]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "apple/china.list",
+      "inputs": [
+        "surge/surge3/provider/apple/china.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/apple/china.list"
+      ],
+      "policy": "🦁️[国内]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "apple/content-caching.list",
+      "inputs": [
+        "surge/surge3/provider/apple/content-caching.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/apple/content-caching.list"
+      ],
+      "policy": "🦁️[国内]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "apple/device-management.list",
+      "inputs": [
+        "surge/surge3/provider/apple/device-management.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/apple/device-management.list"
+      ],
+      "policy": "🦁️[Apple Setup]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "apple/device-setup.list",
+      "inputs": [
+        "surge/surge3/provider/apple/device-setup.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/apple/device-setup.list"
+      ],
+      "policy": "🦁️[Apple Setup]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "apple/domain-name-system-resolution.list",
+      "inputs": [
+        "surge/surge3/provider/apple/domain-name-system-resolution.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/apple/domain-name-system-resolution.list"
+      ],
+      "policy": "🦁️[Apple]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "apple/feedback-assistant.list",
+      "inputs": [
+        "surge/surge3/provider/apple/feedback-assistant.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/apple/feedback-assistant.list"
+      ],
+      "policy": "🦁️[Apple]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "apple/software-updates/app-store.list",
+      "inputs": [
+        "surge/surge3/provider/apple/software-updates/app-store.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/apple/software-updates/app-store.list"
+      ],
+      "policy": "🦁️[Apple CDN]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "apple/software-updates/macos-ios-and-tvos.list",
+      "inputs": [
+        "surge/surge3/provider/apple/software-updates/macos-ios-and-tvos.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/apple/software-updates/macos-ios-and-tvos.list"
+      ],
+      "policy": "🦁️[Apple CDN]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "apple/icloud.list",
+      "inputs": [
+        "surge/surge3/provider/apple/icloud.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/apple/icloud.list"
+      ],
+      "policy": "🦁️[iCloud]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "media/youtube.list",
+      "inputs": [
+        "surge/surge3/provider/vendor/dler/youtube.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/vendor/dler/youtube.list"
+      ],
+      "policy": "🦁️[YouTube]",
+      "flags": [
+        "extended-matching"
+      ],
+      "remove": {
+        "DOMAIN-SUFFIX,gvt1.com": "Google 官方 ChromeOS 网络手册也将此域用于系统更新，不能归为 YouTube 专属。"
+      }
+    },
+    {
+      "output": "media/netflix.list",
+      "inputs": [
+        "surge/surge3/provider/vendor/dler/netflix.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/vendor/dler/netflix.list"
+      ],
+      "policy": "🦁️[Netflix]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "media/spotify.list",
+      "inputs": [
+        "surge/surge3/provider/vendor/dler/spotify.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/vendor/dler/spotify.list"
+      ],
+      "policy": "🦁️[Spotify]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "media/bbc-iplayer.list",
+      "inputs": [
+        "surge/surge3/provider/media/bbc-iplayer.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/media/bbc-iplayer.list"
+      ],
+      "policy": "🇬🇧[英国]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "media/channel4.list",
+      "inputs": [
+        "surge/surge3/provider/media/channel4.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/media/channel4.list"
+      ],
+      "policy": "🇬🇧[英国]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "media/itv.list",
+      "inputs": [
+        "surge/surge3/provider/media/itv.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/media/itv.list"
+      ],
+      "policy": "🇬🇧[英国]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "media/viki.list",
+      "inputs": [
+        "surge/surge3/provider/vendor/blackmatrix7/viki.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/vendor/blackmatrix7/viki.list"
+      ],
+      "policy": "🦁️[Viki]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "media/rakuten.list",
+      "inputs": [
+        "surge/surge3/provider/vendor/blackmatrix7/rakuten.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/vendor/blackmatrix7/rakuten.list"
+      ],
+      "policy": "🦁️[Rakuten]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "media/peacock.list",
+      "inputs": [
+        "surge/surge3/provider/media/peacock.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/media/peacock.list"
+      ],
+      "policy": "🦁️[Peacock]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "media/paramount-plus.list",
+      "inputs": [
+        "surge/surge3/provider/media/paramount-plus.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/media/paramount-plus.list"
+      ],
+      "policy": "🦁️[Paramount+]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "media/shudder.list",
+      "inputs": [
+        "surge/surge3/provider/media/shudder.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/media/shudder.list"
+      ],
+      "policy": "🦁️[🇺🇸]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "media/sony.list",
+      "inputs": [
+        "surge/surge3/provider/media/sony.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/media/sony.list"
+      ],
+      "policy": "🦁️[Sony]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "media/starz-cdn.list",
+      "inputs": [
+        "surge/surge3/provider/media/starz-cdn.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/media/starz-cdn.list"
+      ],
+      "policy": "🦁️[STARZ CDN]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "media/tiktok.list",
+      "inputs": [
+        "surge/surge3/provider/vendor/blackmatrix7/tiktok.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/vendor/blackmatrix7/tiktok.list"
+      ],
+      "policy": "🦁️[🇺🇸]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "media/vevo.list",
+      "inputs": [
+        "surge/surge3/provider/media/vevo.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/media/vevo.list"
+      ],
+      "policy": "🦁️[🇺🇸]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "media/bilibili.list",
+      "inputs": [
+        "surge/surge3/provider/media/bilibili.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/media/bilibili.list"
+      ],
+      "policy": "🦁️[国内]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "media/iqiyi.list",
+      "inputs": [
+        "surge/surge3/provider/media/iqiyi.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/media/iqiyi.list"
+      ],
+      "policy": "🦁️[国内]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "media/tencent-video.list",
+      "inputs": [
+        "surge/surge3/provider/media/tencent-video.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/media/tencent-video.list"
+      ],
+      "policy": "🦁️[国内]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "media/youku.list",
+      "inputs": [
+        "surge/surge3/provider/media/youku.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/media/youku.list"
+      ],
+      "policy": "🦁️[国内]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "media/netease-music.list",
+      "inputs": [
+        "surge/surge3/provider/media/netease-music.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/media/netease-music.list"
+      ],
+      "policy": "🦁️[国内]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "apps/steam.list",
+      "inputs": [
+        "surge/surge3/provider/vendor/dler/steam.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/vendor/dler/steam.list"
+      ],
+      "policy": "🦁️[Steam]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "apps/wechat.list",
+      "inputs": [
+        "surge/surge3/provider/vendor/blackmatrix7/wechat.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/vendor/blackmatrix7/wechat.list"
+      ],
+      "policy": "🦁️[微信]",
+      "flags": [
+        "extended-matching"
+      ],
+      "convert_ipv4_keywords": true
+    },
+    {
+      "output": "apps/binance.list",
+      "inputs": [
+        "surge/surge3/provider/vendor/blackmatrix7/binance.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/vendor/blackmatrix7/binance.list"
+      ],
+      "policy": "🦁️[Blockchain]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "apps/blockchain.list",
+      "inputs": [
+        "surge/surge3/provider/blockchain.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/blockchain.list"
+      ],
+      "policy": "🦁️[Blockchain]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "network/email.list",
+      "inputs": [
+        "surge/surge3/provider/email.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/email.list"
+      ],
+      "policy": "🦁️[邮件]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "apps/google-search.list",
+      "inputs": [
+        "surge/surge3/provider/google-search.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/google-search.list"
+      ],
+      "policy": "🦁️[Google]",
+      "flags": [
+        "extended-matching"
+      ],
+      "add": [
+        {
+          "rule": "DOMAIN-SUFFIX,gvt1.com",
+          "reason": "Google 官方 ChromeOS 更新/公共资源域，放在业务专用规则之后的 Google 通用组。"
+        }
+      ]
+    },
+    {
+      "output": "apps/microsoft.list",
+      "inputs": [
+        "surge/surge3/provider/microsoft.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/microsoft.list"
+      ],
+      "policy": "🦁️[Microsoft]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "apps/misc.list",
+      "inputs": [
+        "surge/surge3/provider/misc.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/misc.list"
+      ],
+      "policy": "🦁️[代理]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "apps/paypal.list",
+      "inputs": [
+        "surge/surge3/provider/paypal.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/paypal.list"
+      ],
+      "policy": "🦁️[🇺🇸]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "network/bt.list",
+      "inputs": [
+        "surge/surge3/provider/bt.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/bt.list"
+      ],
+      "policy": "🦁️[BT]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "apps/teamviewer.list",
+      "inputs": [
+        "surge/surge3/provider/vendor/blackmatrix7/teamviewer.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/vendor/blackmatrix7/teamviewer.list"
+      ],
+      "policy": "🦁️[TeamViewer]",
+      "flags": [
+        "extended-matching"
+      ],
+      "remove": {
+        "IP-CIDR,172.16.102.56/32,no-resolve": "RFC1918 私网地址不可作为全局 TeamViewer 服务指纹；交还局域网/用户规则。"
+      }
+    },
+    {
+      "output": "apps/telegram.list",
+      "inputs": [
+        "surge/surge3/provider/vendor/get-some-fries/telegram.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/vendor/get-some-fries/telegram.list"
+      ],
+      "policy": "🦁️[Telegram]",
+      "flags": [
+        "extended-matching"
+      ],
+      "replace_ip_with": "surge/surge3/provider/curated-sources/telegram-cidr-20260929.txt"
+    },
+    {
+      "output": "apps/speedtest.list",
+      "inputs": [
+        "surge/surge3/provider/vendor/dler/speedtest.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/vendor/dler/speedtest.list"
+      ],
+      "policy": "🦁️[测速]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "network/proxy.list",
+      "inputs": [
+        "surge/surge3/provider/vendor/dler/proxy.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/vendor/dler/proxy.list"
+      ],
+      "policy": "🦁️[代理]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "network/domestic.list",
+      "inputs": [
+        "surge/surge3/provider/vendor/dler/domestic.list",
+        "surge/surge3/provider/domestic.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/vendor/dler/domestic.list",
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/domestic.list"
+      ],
+      "policy": "🦁️[国内]",
+      "flags": [
+        "extended-matching"
+      ]
+    },
+    {
+      "output": "network/china-asn.list",
+      "inputs": [
+        "surge/surge3/provider/vendor/get-some-fries/china-asn.list"
+      ],
+      "profile_urls": [
+        "https://raw.githubusercontent.com/ninjai/rules/master/surge/surge3/provider/vendor/get-some-fries/china-asn.list"
+      ],
+      "policy": "🦁️[国内]",
+      "flags": [
+        "extended-matching"
+      ]
+    }
+  ]
+}
