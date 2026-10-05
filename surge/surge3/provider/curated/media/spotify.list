@@ -1,6 +1,6 @@
 # 本仓库整理发布；请修改 curated-plan.json/来源并运行 scripts/build-curated-rules.py。
-# 审阅日期: 2026-09-29
-# 有效规则数: 27
+# 审阅日期: 2026-10-06
+# 有效规则数: 29
 # 修改明细: surge/surge3/provider/curated/build-report.json
 # 上游许可: surge/surge3/provider/vendor/licenses/
 # 输入: surge/surge3/provider/vendor/dler/spotify.list
@@ -34,3 +34,5 @@ DOMAIN-SUFFIX,spotifyjobs.com
 DOMAIN-SUFFIX,spotilocal.com
 DOMAIN-SUFFIX,tospotify.com
 USER-AGENT,Spotify*
+DOMAIN-SUFFIX,spotify.app.link
+DOMAIN,spotify-com.akamaized.net

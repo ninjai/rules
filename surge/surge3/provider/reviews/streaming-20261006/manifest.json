@@ -1,0 +1,192 @@
+{
+  "sampled_at": "2026-10-05T17:48:16.737594+00:00",
+  "revision": "5a61490ab88ddaff4e9dbd7740b881d75157a49f",
+  "sources": [
+    {
+      "service": "YouTube",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/YouTube/YouTube.list",
+      "sha256": "42274e143447066e26e1ebbf21ae03ce6efb40827f41e2775a84fb16d390713d",
+      "rules": 190,
+      "status": 200
+    },
+    {
+      "service": "Netflix",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/Netflix/Netflix.list",
+      "sha256": "aa03f015949e8f6f981d90a7d8b1acf7e88472ee48601632bd964b0bb740f8aa",
+      "rules": 1158,
+      "status": 200
+    },
+    {
+      "service": "Spotify",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/Spotify/Spotify.list",
+      "sha256": "33bd52e8f23cda9374876259621c8fba21554035e20fa55daffbfcaee2109079",
+      "rules": 31,
+      "status": 200
+    },
+    {
+      "service": "AppleTV",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/AppleTV/AppleTV.list",
+      "sha256": "1078a83e65a4d65cf754e267c369f667fe4b30937747232f809aa03223148bbd",
+      "rules": 10,
+      "status": 200
+    },
+    {
+      "service": "Disney",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/Disney/Disney.list",
+      "sha256": "d0cfd6aee89d9d3075aef9dfadd98a2a3c6a2dba487f5091c801d1bcd70e9884",
+      "rules": 175,
+      "status": 200
+    },
+    {
+      "service": "HBO",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/HBO/HBO.list",
+      "sha256": "fd78b9a0a2ffedd9102d23256011bf8ec94ad98630c06337fdaa6970f4690832",
+      "rules": 50,
+      "status": 200
+    },
+    {
+      "service": "HBOUSA",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/HBOUSA/HBOUSA.list",
+      "sha256": "9f812ff7114e67e4640d747d60dc8f994d62538a4d731e0415f2860d408d7256",
+      "rules": 12,
+      "status": 200
+    },
+    {
+      "service": "Hulu",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/Hulu/Hulu.list",
+      "sha256": "c1efecf92e9b46a0c440471dbcc64a48f29d8d08efbb48a095723ca53d23c2ba",
+      "rules": 59,
+      "status": 200
+    },
+    {
+      "service": "HuluUSA",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/HuluUSA/HuluUSA.list",
+      "sha256": "f22157d76443dc274dd220418f4d0de8a69ee582a92ab3176abdbeb77cf990f9",
+      "rules": 53,
+      "status": 200
+    },
+    {
+      "service": "AmazonPrimeVideo",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/AmazonPrimeVideo/AmazonPrimeVideo.list",
+      "sha256": "f5b07fda0d55df6b8f70ed4ad7ecbe7e501bfe0f9cf469528d611313a3ad03c5",
+      "rules": 28,
+      "status": 200
+    },
+    {
+      "service": "BBC",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/BBC/BBC.list",
+      "sha256": "65d8e181e227aa4052ad68a7b1d1f46f51e87d726b921e943237266d76ef5fd5",
+      "rules": 29,
+      "status": 200
+    },
+    {
+      "service": "All4",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/All4/All4.list",
+      "sha256": "e8833f1d48739b7d19220198d262809d98516a40703414e17db47e2ad41ce3a0",
+      "rules": 3,
+      "status": 200
+    },
+    {
+      "service": "ITV",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/ITV/ITV.list",
+      "sha256": "35792fb7d1be1e9585b8b5b9a76542b3b0560c567036540f915d8f77ded25914",
+      "rules": 4,
+      "status": 200
+    },
+    {
+      "service": "Tubi",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/Tubi/Tubi.list",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "service": "Viki",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/Viki/Viki.list",
+      "sha256": "9522270d1be05efe8338d594e0dcb01da9161ec25be655a557fc7e22bb5b6048",
+      "rules": 8,
+      "status": 200
+    },
+    {
+      "service": "Rakuten",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/Rakuten/Rakuten.list",
+      "sha256": "199de0858556f461c0f5add971e174955d5a5b6acf54dbda0bfba0bacc0a349c",
+      "rules": 18,
+      "status": 200
+    },
+    {
+      "service": "Roku",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/Roku/Roku.list",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "service": "Peacock",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/Peacock/Peacock.list",
+      "sha256": "9a76bed21587550edaa62b4b745c996fb4b901aa9bd12c4b9de01c6a3c16f61b",
+      "rules": 2,
+      "status": 200
+    },
+    {
+      "service": "ParamountPlus",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/ParamountPlus/ParamountPlus.list",
+      "sha256": "cac7d967e7bcb6ccb080451e43b6de264706f749ee1195446ef07d3ccd38e2a3",
+      "rules": 10,
+      "status": 200
+    },
+    {
+      "service": "Shudder",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/Shudder/Shudder.list",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "service": "Starz",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/Starz/Starz.list",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "service": "TikTok",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/TikTok/TikTok.list",
+      "sha256": "b44559153af1e15e49ea1f2e161230276aee0fd29d697f2a4d635f4a484e2220",
+      "rules": 33,
+      "status": 200
+    },
+    {
+      "service": "Vevo",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/Vevo/Vevo.list",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "service": "BiliBili",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/BiliBili/BiliBili.list",
+      "sha256": "8537129301d5e4040d9f2b2255217458a16c96eef850ec22367352c512bc3988",
+      "rules": 133,
+      "status": 200
+    },
+    {
+      "service": "iQIYI",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/iQIYI/iQIYI.list",
+      "sha256": "153f19cd26fe02085ba506c2882756ebdc0a05ee31d40563f8165ad099e50010",
+      "rules": 63,
+      "status": 200
+    },
+    {
+      "service": "TencentVideo",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/TencentVideo/TencentVideo.list",
+      "sha256": "2f74f99c2f48a2133044b7f725faaa21a5621fd503c640599e1ac8b5eb48890b",
+      "rules": 51,
+      "status": 200
+    },
+    {
+      "service": "Youku",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/Youku/Youku.list",
+      "sha256": "fe46c7fb82514f089c404aa60bc856aa524f4ef1ed27a9c49217ad4671d424ce",
+      "rules": 37,
+      "status": 200
+    },
+    {
+      "service": "NetEaseMusic",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/NetEaseMusic/NetEaseMusic.list",
+      "sha256": "0e3034b7fd6598cf8165f143510bcfe6683b3ceffb03e46fe24cc434cd0df3c0",
+      "rules": 30,
+      "status": 200
+    }
+  ]
+}

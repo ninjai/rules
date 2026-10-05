@@ -1,0 +1,27 @@
+[
+  {
+    "service": "tubi",
+    "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/63777333b7dd1ac57f790e466c0f6a647b9c7281/data/tubi",
+    "text": "tubi.io\ntubi.tv\ntubi.video\ntubitv.com\n"
+  },
+  {
+    "service": "roku",
+    "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/63777333b7dd1ac57f790e466c0f6a647b9c7281/data/roku",
+    "text": "fandango.com\nmgo.com\nmgo-images.com\nravm.tv\nroku.com\nrokutime.com\n"
+  },
+  {
+    "service": "shudder",
+    "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/63777333b7dd1ac57f790e466c0f6a647b9c7281/data/shudder",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "service": "starz",
+    "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/63777333b7dd1ac57f790e466c0f6a647b9c7281/data/starz",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "service": "vevo",
+    "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/63777333b7dd1ac57f790e466c0f6a647b9c7281/data/vevo",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

@@ -24,6 +24,13 @@ def ip_match(records, ip):
 
 
 class NormalizeTests(unittest.TestCase):
+    def test_review_date_is_per_list(self):
+        outputs, _ = builder.build()
+        media = outputs[builder.PROVIDER / 'curated/media/netflix.list'].decode()
+        other = outputs[builder.PROVIDER / 'curated/media/apple-news.list'].decode()
+        self.assertIn('# 审阅日期: 2026-10-06', media)
+        self.assertIn('# 审阅日期: 2026-09-29', other)
+
     def test_duplicates_keep_flags(self):
         rows = builder.parse('DOMAIN,a.example\nDOMAIN,a.example // 重复\nDOMAIN,a.example,extended-matching')
         clean, _ = builder.clean(rows, {})

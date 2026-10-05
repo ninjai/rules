@@ -146,6 +146,213 @@
       "path": "get-some-fries/china-asn.list",
       "sha256": "50f106604b9da0b0adc3f17f0d004dd129684ae95811ac29f13471332c8bcafa",
       "rule_count": 5076
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/YouTube/YouTube.list",
+      "repository": "https://github.com/blackmatrix7/ios_rule_script",
+      "revision": "5a61490ab88ddaff4e9dbd7740b881d75157a49f",
+      "snapshot_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/YouTube/YouTube.list",
+      "path": "blackmatrix7/streaming-20261006/YouTube.list",
+      "sha256": "42274e143447066e26e1ebbf21ae03ce6efb40827f41e2775a84fb16d390713d",
+      "rule_count": 190
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/Netflix/Netflix.list",
+      "repository": "https://github.com/blackmatrix7/ios_rule_script",
+      "revision": "5a61490ab88ddaff4e9dbd7740b881d75157a49f",
+      "snapshot_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/Netflix/Netflix.list",
+      "path": "blackmatrix7/streaming-20261006/Netflix.list",
+      "sha256": "aa03f015949e8f6f981d90a7d8b1acf7e88472ee48601632bd964b0bb740f8aa",
+      "rule_count": 1158
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/Spotify/Spotify.list",
+      "repository": "https://github.com/blackmatrix7/ios_rule_script",
+      "revision": "5a61490ab88ddaff4e9dbd7740b881d75157a49f",
+      "snapshot_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/Spotify/Spotify.list",
+      "path": "blackmatrix7/streaming-20261006/Spotify.list",
+      "sha256": "33bd52e8f23cda9374876259621c8fba21554035e20fa55daffbfcaee2109079",
+      "rule_count": 31
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/AppleTV/AppleTV.list",
+      "repository": "https://github.com/blackmatrix7/ios_rule_script",
+      "revision": "5a61490ab88ddaff4e9dbd7740b881d75157a49f",
+      "snapshot_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/AppleTV/AppleTV.list",
+      "path": "blackmatrix7/streaming-20261006/AppleTV.list",
+      "sha256": "1078a83e65a4d65cf754e267c369f667fe4b30937747232f809aa03223148bbd",
+      "rule_count": 10
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/Disney/Disney.list",
+      "repository": "https://github.com/blackmatrix7/ios_rule_script",
+      "revision": "5a61490ab88ddaff4e9dbd7740b881d75157a49f",
+      "snapshot_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/Disney/Disney.list",
+      "path": "blackmatrix7/streaming-20261006/Disney.list",
+      "sha256": "d0cfd6aee89d9d3075aef9dfadd98a2a3c6a2dba487f5091c801d1bcd70e9884",
+      "rule_count": 175
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/HBO/HBO.list",
+      "repository": "https://github.com/blackmatrix7/ios_rule_script",
+      "revision": "5a61490ab88ddaff4e9dbd7740b881d75157a49f",
+      "snapshot_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/HBO/HBO.list",
+      "path": "blackmatrix7/streaming-20261006/HBO.list",
+      "sha256": "fd78b9a0a2ffedd9102d23256011bf8ec94ad98630c06337fdaa6970f4690832",
+      "rule_count": 50
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/HBOUSA/HBOUSA.list",
+      "repository": "https://github.com/blackmatrix7/ios_rule_script",
+      "revision": "5a61490ab88ddaff4e9dbd7740b881d75157a49f",
+      "snapshot_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/HBOUSA/HBOUSA.list",
+      "path": "blackmatrix7/streaming-20261006/HBOUSA.list",
+      "sha256": "9f812ff7114e67e4640d747d60dc8f994d62538a4d731e0415f2860d408d7256",
+      "rule_count": 12
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/Hulu/Hulu.list",
+      "repository": "https://github.com/blackmatrix7/ios_rule_script",
+      "revision": "5a61490ab88ddaff4e9dbd7740b881d75157a49f",
+      "snapshot_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/Hulu/Hulu.list",
+      "path": "blackmatrix7/streaming-20261006/Hulu.list",
+      "sha256": "c1efecf92e9b46a0c440471dbcc64a48f29d8d08efbb48a095723ca53d23c2ba",
+      "rule_count": 59
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/HuluUSA/HuluUSA.list",
+      "repository": "https://github.com/blackmatrix7/ios_rule_script",
+      "revision": "5a61490ab88ddaff4e9dbd7740b881d75157a49f",
+      "snapshot_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/HuluUSA/HuluUSA.list",
+      "path": "blackmatrix7/streaming-20261006/HuluUSA.list",
+      "sha256": "f22157d76443dc274dd220418f4d0de8a69ee582a92ab3176abdbeb77cf990f9",
+      "rule_count": 53
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/AmazonPrimeVideo/AmazonPrimeVideo.list",
+      "repository": "https://github.com/blackmatrix7/ios_rule_script",
+      "revision": "5a61490ab88ddaff4e9dbd7740b881d75157a49f",
+      "snapshot_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/AmazonPrimeVideo/AmazonPrimeVideo.list",
+      "path": "blackmatrix7/streaming-20261006/AmazonPrimeVideo.list",
+      "sha256": "f5b07fda0d55df6b8f70ed4ad7ecbe7e501bfe0f9cf469528d611313a3ad03c5",
+      "rule_count": 28
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/BBC/BBC.list",
+      "repository": "https://github.com/blackmatrix7/ios_rule_script",
+      "revision": "5a61490ab88ddaff4e9dbd7740b881d75157a49f",
+      "snapshot_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/BBC/BBC.list",
+      "path": "blackmatrix7/streaming-20261006/BBC.list",
+      "sha256": "65d8e181e227aa4052ad68a7b1d1f46f51e87d726b921e943237266d76ef5fd5",
+      "rule_count": 29
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/All4/All4.list",
+      "repository": "https://github.com/blackmatrix7/ios_rule_script",
+      "revision": "5a61490ab88ddaff4e9dbd7740b881d75157a49f",
+      "snapshot_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/All4/All4.list",
+      "path": "blackmatrix7/streaming-20261006/All4.list",
+      "sha256": "e8833f1d48739b7d19220198d262809d98516a40703414e17db47e2ad41ce3a0",
+      "rule_count": 3
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/ITV/ITV.list",
+      "repository": "https://github.com/blackmatrix7/ios_rule_script",
+      "revision": "5a61490ab88ddaff4e9dbd7740b881d75157a49f",
+      "snapshot_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/ITV/ITV.list",
+      "path": "blackmatrix7/streaming-20261006/ITV.list",
+      "sha256": "35792fb7d1be1e9585b8b5b9a76542b3b0560c567036540f915d8f77ded25914",
+      "rule_count": 4
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/Viki/Viki.list",
+      "repository": "https://github.com/blackmatrix7/ios_rule_script",
+      "revision": "5a61490ab88ddaff4e9dbd7740b881d75157a49f",
+      "snapshot_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/Viki/Viki.list",
+      "path": "blackmatrix7/streaming-20261006/Viki.list",
+      "sha256": "9522270d1be05efe8338d594e0dcb01da9161ec25be655a557fc7e22bb5b6048",
+      "rule_count": 8
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/Rakuten/Rakuten.list",
+      "repository": "https://github.com/blackmatrix7/ios_rule_script",
+      "revision": "5a61490ab88ddaff4e9dbd7740b881d75157a49f",
+      "snapshot_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/Rakuten/Rakuten.list",
+      "path": "blackmatrix7/streaming-20261006/Rakuten.list",
+      "sha256": "199de0858556f461c0f5add971e174955d5a5b6acf54dbda0bfba0bacc0a349c",
+      "rule_count": 18
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/Peacock/Peacock.list",
+      "repository": "https://github.com/blackmatrix7/ios_rule_script",
+      "revision": "5a61490ab88ddaff4e9dbd7740b881d75157a49f",
+      "snapshot_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/Peacock/Peacock.list",
+      "path": "blackmatrix7/streaming-20261006/Peacock.list",
+      "sha256": "9a76bed21587550edaa62b4b745c996fb4b901aa9bd12c4b9de01c6a3c16f61b",
+      "rule_count": 2
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/ParamountPlus/ParamountPlus.list",
+      "repository": "https://github.com/blackmatrix7/ios_rule_script",
+      "revision": "5a61490ab88ddaff4e9dbd7740b881d75157a49f",
+      "snapshot_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/ParamountPlus/ParamountPlus.list",
+      "path": "blackmatrix7/streaming-20261006/ParamountPlus.list",
+      "sha256": "cac7d967e7bcb6ccb080451e43b6de264706f749ee1195446ef07d3ccd38e2a3",
+      "rule_count": 10
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/TikTok/TikTok.list",
+      "repository": "https://github.com/blackmatrix7/ios_rule_script",
+      "revision": "5a61490ab88ddaff4e9dbd7740b881d75157a49f",
+      "snapshot_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/TikTok/TikTok.list",
+      "path": "blackmatrix7/streaming-20261006/TikTok.list",
+      "sha256": "b44559153af1e15e49ea1f2e161230276aee0fd29d697f2a4d635f4a484e2220",
+      "rule_count": 33
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/BiliBili/BiliBili.list",
+      "repository": "https://github.com/blackmatrix7/ios_rule_script",
+      "revision": "5a61490ab88ddaff4e9dbd7740b881d75157a49f",
+      "snapshot_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/BiliBili/BiliBili.list",
+      "path": "blackmatrix7/streaming-20261006/BiliBili.list",
+      "sha256": "8537129301d5e4040d9f2b2255217458a16c96eef850ec22367352c512bc3988",
+      "rule_count": 133
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/iQIYI/iQIYI.list",
+      "repository": "https://github.com/blackmatrix7/ios_rule_script",
+      "revision": "5a61490ab88ddaff4e9dbd7740b881d75157a49f",
+      "snapshot_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/iQIYI/iQIYI.list",
+      "path": "blackmatrix7/streaming-20261006/iQIYI.list",
+      "sha256": "153f19cd26fe02085ba506c2882756ebdc0a05ee31d40563f8165ad099e50010",
+      "rule_count": 63
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/TencentVideo/TencentVideo.list",
+      "repository": "https://github.com/blackmatrix7/ios_rule_script",
+      "revision": "5a61490ab88ddaff4e9dbd7740b881d75157a49f",
+      "snapshot_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/TencentVideo/TencentVideo.list",
+      "path": "blackmatrix7/streaming-20261006/TencentVideo.list",
+      "sha256": "2f74f99c2f48a2133044b7f725faaa21a5621fd503c640599e1ac8b5eb48890b",
+      "rule_count": 51
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/Youku/Youku.list",
+      "repository": "https://github.com/blackmatrix7/ios_rule_script",
+      "revision": "5a61490ab88ddaff4e9dbd7740b881d75157a49f",
+      "snapshot_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/Youku/Youku.list",
+      "path": "blackmatrix7/streaming-20261006/Youku.list",
+      "sha256": "fe46c7fb82514f089c404aa60bc856aa524f4ef1ed27a9c49217ad4671d424ce",
+      "rule_count": 37
+    },
+    {
+      "upstream_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/NetEaseMusic/NetEaseMusic.list",
+      "repository": "https://github.com/blackmatrix7/ios_rule_script",
+      "revision": "5a61490ab88ddaff4e9dbd7740b881d75157a49f",
+      "snapshot_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5a61490ab88ddaff4e9dbd7740b881d75157a49f/rule/Surge/NetEaseMusic/NetEaseMusic.list",
+      "path": "blackmatrix7/streaming-20261006/NetEaseMusic.list",
+      "sha256": "0e3034b7fd6598cf8165f143510bcfe6683b3ceffb03e46fe24cc434cd0df3c0",
+      "rule_count": 30
     }
   ],
   "licenses": [

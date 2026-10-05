@@ -140,7 +140,7 @@ def build():
             attribution.extend(header)
         rules, changes = clean(records, entry)
         header = ['# 本仓库整理发布；请修改 curated-plan.json/来源并运行 scripts/build-curated-rules.py。',
-                  '# 审阅日期: ' + plan['reviewed_on'], '# 有效规则数: ' + str(len(rules)),
+                  '# 审阅日期: ' + entry.get('reviewed_on', plan['reviewed_on']), '# 有效规则数: ' + str(len(rules)),
                   '# 修改明细: surge/surge3/provider/curated/build-report.json',
                   '# 上游许可: surge/surge3/provider/vendor/licenses/']
         header += ['# 输入: ' + source for source in entry['inputs']]

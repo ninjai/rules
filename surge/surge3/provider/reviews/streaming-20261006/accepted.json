@@ -1,0 +1,472 @@
+[
+  {
+    "service": "YouTube",
+    "rule": "DOMAIN-SUFFIX,wide-youtube.l.google.com",
+    "policy": "🦁️[YouTube]"
+  },
+  {
+    "service": "YouTube",
+    "rule": "DOMAIN-SUFFIX,withyoutube.com",
+    "policy": "🦁️[YouTube]"
+  },
+  {
+    "service": "YouTube",
+    "rule": "DOMAIN-SUFFIX,youtubefanfest.com",
+    "policy": "🦁️[YouTube]"
+  },
+  {
+    "service": "YouTube",
+    "rule": "DOMAIN-SUFFIX,youtubegaming.com",
+    "policy": "🦁️[YouTube]"
+  },
+  {
+    "service": "Netflix",
+    "rule": "DOMAIN-SUFFIX,fast.com",
+    "policy": "🦁️[Netflix]"
+  },
+  {
+    "service": "Netflix",
+    "rule": "DOMAIN-SUFFIX,netflix.ca",
+    "policy": "🦁️[Netflix]"
+  },
+  {
+    "service": "Netflix",
+    "rule": "DOMAIN-SUFFIX,netflix.com.au",
+    "policy": "🦁️[Netflix]"
+  },
+  {
+    "service": "Netflix",
+    "rule": "DOMAIN-SUFFIX,nflxsearch.net",
+    "policy": "🦁️[Netflix]"
+  },
+  {
+    "service": "Netflix",
+    "rule": "DOMAIN-SUFFIX,netflixdnstest0.com",
+    "policy": "🦁️[Netflix]"
+  },
+  {
+    "service": "Netflix",
+    "rule": "DOMAIN-SUFFIX,netflixdnstest1.com",
+    "policy": "🦁️[Netflix]"
+  },
+  {
+    "service": "Netflix",
+    "rule": "DOMAIN-SUFFIX,netflixdnstest2.com",
+    "policy": "🦁️[Netflix]"
+  },
+  {
+    "service": "Netflix",
+    "rule": "DOMAIN-SUFFIX,netflixdnstest3.com",
+    "policy": "🦁️[Netflix]"
+  },
+  {
+    "service": "Netflix",
+    "rule": "DOMAIN-SUFFIX,netflixdnstest4.com",
+    "policy": "🦁️[Netflix]"
+  },
+  {
+    "service": "Netflix",
+    "rule": "DOMAIN-SUFFIX,netflixdnstest5.com",
+    "policy": "🦁️[Netflix]"
+  },
+  {
+    "service": "Netflix",
+    "rule": "DOMAIN-SUFFIX,netflixdnstest6.com",
+    "policy": "🦁️[Netflix]"
+  },
+  {
+    "service": "Netflix",
+    "rule": "DOMAIN-SUFFIX,netflixdnstest7.com",
+    "policy": "🦁️[Netflix]"
+  },
+  {
+    "service": "Netflix",
+    "rule": "DOMAIN-SUFFIX,netflixdnstest8.com",
+    "policy": "🦁️[Netflix]"
+  },
+  {
+    "service": "Netflix",
+    "rule": "DOMAIN-SUFFIX,netflixdnstest9.com",
+    "policy": "🦁️[Netflix]"
+  },
+  {
+    "service": "Netflix",
+    "rule": "DOMAIN-SUFFIX,netflixdnstest10.com",
+    "policy": "🦁️[Netflix]"
+  },
+  {
+    "service": "Netflix",
+    "rule": "DOMAIN,h-netflix.online-metrix.net",
+    "policy": "🦁️[Netflix]"
+  },
+  {
+    "service": "Netflix",
+    "rule": "DOMAIN,netflix.com.edgesuite.net",
+    "policy": "🦁️[Netflix]"
+  },
+  {
+    "service": "Spotify",
+    "rule": "DOMAIN-SUFFIX,spotify.app.link",
+    "policy": "🦁️[Spotify]"
+  },
+  {
+    "service": "Spotify",
+    "rule": "DOMAIN,audio-ak-spotify-com.akamaized.net",
+    "policy": "🦁️[Spotify]"
+  },
+  {
+    "service": "Spotify",
+    "rule": "DOMAIN,heads4-ak-spotify-com.akamaized.net",
+    "policy": "🦁️[Spotify]"
+  },
+  {
+    "service": "Spotify",
+    "rule": "DOMAIN,spotify-com.akamaized.net",
+    "policy": "🦁️[Spotify]"
+  },
+  {
+    "service": "BBC",
+    "rule": "DOMAIN,as-dash-uk-live.akamaized.net",
+    "policy": "🇬🇧[英国]"
+  },
+  {
+    "service": "BBC",
+    "rule": "DOMAIN,as-hls-uk-live.akamaized.net",
+    "policy": "🇬🇧[英国]"
+  },
+  {
+    "service": "BBC",
+    "rule": "DOMAIN,vod-dash-ww-live.akamaized.net",
+    "policy": "🇬🇧[英国]"
+  },
+  {
+    "service": "BBC",
+    "rule": "DOMAIN,vod-hls-uk-live.akamaized.net",
+    "policy": "🇬🇧[英国]"
+  },
+  {
+    "service": "BBC",
+    "rule": "DOMAIN,vod-sub-uk-live.akamaized.net",
+    "policy": "🇬🇧[英国]"
+  },
+  {
+    "service": "BBC",
+    "rule": "DOMAIN,vod-thumb-ww-live.akamaized.net",
+    "policy": "🇬🇧[英国]"
+  },
+  {
+    "service": "BBC",
+    "rule": "DOMAIN,vs-cmaf-push-uk-live.akamaized.net",
+    "policy": "🇬🇧[英国]"
+  },
+  {
+    "service": "BBC",
+    "rule": "DOMAIN-SUFFIX,bbc.net.uk",
+    "policy": "🇬🇧[英国]"
+  },
+  {
+    "service": "BBC",
+    "rule": "DOMAIN-SUFFIX,bbcmedia.co.uk",
+    "policy": "🇬🇧[英国]"
+  },
+  {
+    "service": "BiliBili",
+    "rule": "DOMAIN-SUFFIX,bilicdn1.com",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "BiliBili",
+    "rule": "DOMAIN-SUFFIX,bilicdn2.com",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "BiliBili",
+    "rule": "DOMAIN-SUFFIX,bilicdn3.com",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "BiliBili",
+    "rule": "DOMAIN-SUFFIX,bilicdn4.com",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "BiliBili",
+    "rule": "DOMAIN-SUFFIX,bilicdn5.com",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "BiliBili",
+    "rule": "DOMAIN-SUFFIX,biliimg.com",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "BiliBili",
+    "rule": "DOMAIN-SUFFIX,bilivideo.cn",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "BiliBili",
+    "rule": "DOMAIN-SUFFIX,bilivideo.net",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "BiliBili",
+    "rule": "DOMAIN-SUFFIX,hdslb.net",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "BiliBili",
+    "rule": "DOMAIN-SUFFIX,hdslb.org",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "BiliBili",
+    "rule": "DOMAIN,upos-hz-mirrorakam.akamaized.net",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "BiliBili",
+    "rule": "DOMAIN,uposdash-302-bilivideo.yfcdn.net",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "iQIYI",
+    "rule": "DOMAIN-SUFFIX,iqiyi.com",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "iQIYI",
+    "rule": "DOMAIN-SUFFIX,qiyi.com",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "iQIYI",
+    "rule": "DOMAIN-SUFFIX,qiyi.cn",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "iQIYI",
+    "rule": "DOMAIN-SUFFIX,qiyipic.com",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "iQIYI",
+    "rule": "DOMAIN-SUFFIX,iqiyipic.com",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "iQIYI",
+    "rule": "DOMAIN-SUFFIX,iqiyiedge.com",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "iQIYI",
+    "rule": "DOMAIN-SUFFIX,iqiyiedge.net",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "iQIYI",
+    "rule": "DOMAIN-SUFFIX,71edge.com",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "iQIYI",
+    "rule": "DOMAIN-SUFFIX,71edge.net",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "iQIYI",
+    "rule": "DOMAIN-SUFFIX,pps.tv",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "iQIYI",
+    "rule": "DOMAIN-SUFFIX,ppsimg.com",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "TencentVideo",
+    "rule": "DOMAIN-SUFFIX,v.qq.com",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "TencentVideo",
+    "rule": "DOMAIN-SUFFIX,video.qq.com",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "TencentVideo",
+    "rule": "DOMAIN-SUFFIX,qqvideo.gtimg.com",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "TencentVideo",
+    "rule": "DOMAIN-SUFFIX,v.smtcdns.com",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "TencentVideo",
+    "rule": "DOMAIN,ios.video.mpush.qq.com",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "TencentVideo",
+    "rule": "DOMAIN,v.streaming.qq.com",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "TencentVideo",
+    "rule": "DOMAIN,video-public-1258344701.shiply-cdn.qq.com",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "TencentVideo",
+    "rule": "DOMAIN,video-search-1258344701.shiply-cdn.qq.com",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "TencentVideo",
+    "rule": "DOMAIN,video-vip-1258344701.shiply-cdn.qq.com",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "Youku",
+    "rule": "DOMAIN-SUFFIX,youku.com",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "Youku",
+    "rule": "DOMAIN-SUFFIX,ykimg.com",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "Youku",
+    "rule": "DOMAIN-SUFFIX,tudou.com",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "Youku",
+    "rule": "DOMAIN-SUFFIX,soku.com",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "Youku",
+    "rule": "DOMAIN-SUFFIX,kumiao.com",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "Youku",
+    "rule": "DOMAIN-SUFFIX,kumiao.tv",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "NetEaseMusic",
+    "rule": "DOMAIN-SUFFIX,music.126.com",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "NetEaseMusic",
+    "rule": "DOMAIN-SUFFIX,music.126.net",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "NetEaseMusic",
+    "rule": "DOMAIN-SUFFIX,music.163.com",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "NetEaseMusic",
+    "rule": "DOMAIN-SUFFIX,music.163.com.163jiasu.com",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "NetEaseMusic",
+    "rule": "DOMAIN,netease.ugcvideoss.ourdvs.com",
+    "policy": "🦁️[国内]"
+  },
+  {
+    "service": "Disney",
+    "rule": "DOMAIN,disney-portal.my.onetrust.com",
+    "policy": "🦁️[Disney+]"
+  },
+  {
+    "service": "Disney",
+    "rule": "DOMAIN,disneyplus.com.ssl.sc.omtrdc.net",
+    "policy": "🦁️[Disney+]"
+  },
+  {
+    "service": "HBO",
+    "rule": "DOMAIN-SUFFIX,hbogo.co.th",
+    "policy": "🦁️[HBO]"
+  },
+  {
+    "service": "HBO",
+    "rule": "DOMAIN-SUFFIX,hbogo.eu",
+    "policy": "🦁️[HBO]"
+  },
+  {
+    "service": "HBO",
+    "rule": "DOMAIN-SUFFIX,hbogoasia.id",
+    "policy": "🦁️[HBO]"
+  },
+  {
+    "service": "HBO",
+    "rule": "DOMAIN-SUFFIX,hbogoasia.ph",
+    "policy": "🦁️[HBO]"
+  },
+  {
+    "service": "HBO",
+    "rule": "DOMAIN-SUFFIX,hbogoasia.sg",
+    "policy": "🦁️[HBO]"
+  },
+  {
+    "service": "HBO",
+    "rule": "DOMAIN-SUFFIX,hbogoasia.tw",
+    "policy": "🦁️[HBO]"
+  },
+  {
+    "service": "HBO",
+    "rule": "DOMAIN,hbounify-prod.evergent.com",
+    "policy": "🦁️[HBO]"
+  },
+  {
+    "service": "HBO",
+    "rule": "DOMAIN,hbo.com.c.footprint.net",
+    "policy": "🦁️[HBO CDN]"
+  },
+  {
+    "service": "HBO",
+    "rule": "DOMAIN,hbo.com.edgesuite.net",
+    "policy": "🦁️[HBO CDN]"
+  },
+  {
+    "service": "HBO",
+    "rule": "DOMAIN,hbo.map.fastly.net",
+    "policy": "🦁️[HBO CDN]"
+  },
+  {
+    "service": "HBO",
+    "rule": "DOMAIN,hboasialive.akamaized.net",
+    "policy": "🦁️[HBO CDN]"
+  },
+  {
+    "service": "HBO",
+    "rule": "DOMAIN,hbogeo.cust.footprint.net",
+    "policy": "🦁️[HBO CDN]"
+  },
+  {
+    "service": "HBO",
+    "rule": "DOMAIN,hbogoprod-vod.akamaized.net",
+    "policy": "🦁️[HBO CDN]"
+  },
+  {
+    "service": "Tubi",
+    "rule": "DOMAIN-SUFFIX,tubi.tv",
+    "policy": "🦁️[Tubi]"
+  },
+  {
+    "service": "Tubi",
+    "rule": "DOMAIN-SUFFIX,tubi.video",
+    "policy": "🦁️[Tubi]"
+  }
+]

@@ -268,7 +268,26 @@
       ],
       "remove": {
         "DOMAIN-SUFFIX,gvt1.com": "Google 官方 ChromeOS 网络手册也将此域用于系统更新，不能归为 YouTube 专属。"
-      }
+      },
+      "add": [
+        {
+          "rule": "DOMAIN-SUFFIX,wide-youtube.l.google.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/YouTube 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/YouTube.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,withyoutube.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/YouTube 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/YouTube.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,youtubefanfest.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/YouTube 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/YouTube.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,youtubegaming.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/YouTube 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/YouTube.list；共享 CDN 主机收窄为 DOMAIN。"
+        }
+      ],
+      "reviewed_on": "2026-10-06"
     },
     {
       "output": "media/netflix.list",
@@ -281,7 +300,78 @@
       "policy": "🦁️[Netflix]",
       "flags": [
         "extended-matching"
-      ]
+      ],
+      "add": [
+        {
+          "rule": "DOMAIN-SUFFIX,fast.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/Netflix 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/Netflix.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,netflix.ca",
+          "reason": "2026-10-06 审阅 blackmatrix7/Netflix 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/Netflix.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,netflix.com.au",
+          "reason": "2026-10-06 审阅 blackmatrix7/Netflix 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/Netflix.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,nflxsearch.net",
+          "reason": "2026-10-06 审阅 blackmatrix7/Netflix 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/Netflix.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,netflixdnstest0.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/Netflix 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/Netflix.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,netflixdnstest1.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/Netflix 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/Netflix.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,netflixdnstest2.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/Netflix 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/Netflix.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,netflixdnstest3.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/Netflix 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/Netflix.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,netflixdnstest4.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/Netflix 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/Netflix.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,netflixdnstest5.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/Netflix 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/Netflix.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,netflixdnstest6.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/Netflix 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/Netflix.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,netflixdnstest7.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/Netflix 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/Netflix.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,netflixdnstest8.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/Netflix 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/Netflix.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,netflixdnstest9.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/Netflix 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/Netflix.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,netflixdnstest10.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/Netflix 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/Netflix.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN,h-netflix.online-metrix.net",
+          "reason": "2026-10-06 审阅 blackmatrix7/Netflix 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/Netflix.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN,netflix.com.edgesuite.net",
+          "reason": "2026-10-06 审阅 blackmatrix7/Netflix 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/Netflix.list；共享 CDN 主机收窄为 DOMAIN。"
+        }
+      ],
+      "reviewed_on": "2026-10-06"
     },
     {
       "output": "media/spotify.list",
@@ -294,7 +384,26 @@
       "policy": "🦁️[Spotify]",
       "flags": [
         "extended-matching"
-      ]
+      ],
+      "add": [
+        {
+          "rule": "DOMAIN-SUFFIX,spotify.app.link",
+          "reason": "2026-10-06 审阅 blackmatrix7/Spotify 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/Spotify.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN,audio-ak-spotify-com.akamaized.net",
+          "reason": "2026-10-06 审阅 blackmatrix7/Spotify 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/Spotify.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN,heads4-ak-spotify-com.akamaized.net",
+          "reason": "2026-10-06 审阅 blackmatrix7/Spotify 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/Spotify.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN,spotify-com.akamaized.net",
+          "reason": "2026-10-06 审阅 blackmatrix7/Spotify 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/Spotify.list；共享 CDN 主机收窄为 DOMAIN。"
+        }
+      ],
+      "reviewed_on": "2026-10-06"
     },
     {
       "output": "media/bbc-iplayer.list",
@@ -307,7 +416,46 @@
       "policy": "🇬🇧[英国]",
       "flags": [
         "extended-matching"
-      ]
+      ],
+      "add": [
+        {
+          "rule": "DOMAIN,as-dash-uk-live.akamaized.net",
+          "reason": "2026-10-06 审阅 blackmatrix7/BBC 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/BBC.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN,as-hls-uk-live.akamaized.net",
+          "reason": "2026-10-06 审阅 blackmatrix7/BBC 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/BBC.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN,vod-dash-ww-live.akamaized.net",
+          "reason": "2026-10-06 审阅 blackmatrix7/BBC 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/BBC.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN,vod-hls-uk-live.akamaized.net",
+          "reason": "2026-10-06 审阅 blackmatrix7/BBC 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/BBC.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN,vod-sub-uk-live.akamaized.net",
+          "reason": "2026-10-06 审阅 blackmatrix7/BBC 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/BBC.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN,vod-thumb-ww-live.akamaized.net",
+          "reason": "2026-10-06 审阅 blackmatrix7/BBC 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/BBC.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN,vs-cmaf-push-uk-live.akamaized.net",
+          "reason": "2026-10-06 审阅 blackmatrix7/BBC 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/BBC.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,bbc.net.uk",
+          "reason": "2026-10-06 审阅 blackmatrix7/BBC 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/BBC.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,bbcmedia.co.uk",
+          "reason": "2026-10-06 审阅 blackmatrix7/BBC 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/BBC.list；共享 CDN 主机收窄为 DOMAIN。"
+        }
+      ],
+      "reviewed_on": "2026-10-06"
     },
     {
       "output": "media/channel4.list",
@@ -463,7 +611,58 @@
       "policy": "🦁️[国内]",
       "flags": [
         "extended-matching"
-      ]
+      ],
+      "add": [
+        {
+          "rule": "DOMAIN-SUFFIX,bilicdn1.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/BiliBili 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/BiliBili.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,bilicdn2.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/BiliBili 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/BiliBili.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,bilicdn3.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/BiliBili 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/BiliBili.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,bilicdn4.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/BiliBili 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/BiliBili.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,bilicdn5.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/BiliBili 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/BiliBili.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,biliimg.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/BiliBili 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/BiliBili.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,bilivideo.cn",
+          "reason": "2026-10-06 审阅 blackmatrix7/BiliBili 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/BiliBili.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,bilivideo.net",
+          "reason": "2026-10-06 审阅 blackmatrix7/BiliBili 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/BiliBili.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,hdslb.net",
+          "reason": "2026-10-06 审阅 blackmatrix7/BiliBili 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/BiliBili.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,hdslb.org",
+          "reason": "2026-10-06 审阅 blackmatrix7/BiliBili 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/BiliBili.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN,upos-hz-mirrorakam.akamaized.net",
+          "reason": "2026-10-06 审阅 blackmatrix7/BiliBili 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/BiliBili.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN,uposdash-302-bilivideo.yfcdn.net",
+          "reason": "2026-10-06 审阅 blackmatrix7/BiliBili 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/BiliBili.list；共享 CDN 主机收窄为 DOMAIN。"
+        }
+      ],
+      "reviewed_on": "2026-10-06"
     },
     {
       "output": "media/iqiyi.list",
@@ -476,7 +675,54 @@
       "policy": "🦁️[国内]",
       "flags": [
         "extended-matching"
-      ]
+      ],
+      "add": [
+        {
+          "rule": "DOMAIN-SUFFIX,iqiyi.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/iQIYI 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/iQIYI.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,qiyi.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/iQIYI 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/iQIYI.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,qiyi.cn",
+          "reason": "2026-10-06 审阅 blackmatrix7/iQIYI 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/iQIYI.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,qiyipic.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/iQIYI 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/iQIYI.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,iqiyipic.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/iQIYI 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/iQIYI.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,iqiyiedge.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/iQIYI 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/iQIYI.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,iqiyiedge.net",
+          "reason": "2026-10-06 审阅 blackmatrix7/iQIYI 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/iQIYI.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,71edge.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/iQIYI 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/iQIYI.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,71edge.net",
+          "reason": "2026-10-06 审阅 blackmatrix7/iQIYI 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/iQIYI.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,pps.tv",
+          "reason": "2026-10-06 审阅 blackmatrix7/iQIYI 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/iQIYI.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,ppsimg.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/iQIYI 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/iQIYI.list；共享 CDN 主机收窄为 DOMAIN。"
+        }
+      ],
+      "reviewed_on": "2026-10-06"
     },
     {
       "output": "media/tencent-video.list",
@@ -489,7 +735,46 @@
       "policy": "🦁️[国内]",
       "flags": [
         "extended-matching"
-      ]
+      ],
+      "add": [
+        {
+          "rule": "DOMAIN-SUFFIX,v.qq.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/TencentVideo 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/TencentVideo.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,video.qq.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/TencentVideo 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/TencentVideo.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,qqvideo.gtimg.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/TencentVideo 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/TencentVideo.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,v.smtcdns.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/TencentVideo 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/TencentVideo.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN,ios.video.mpush.qq.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/TencentVideo 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/TencentVideo.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN,v.streaming.qq.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/TencentVideo 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/TencentVideo.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN,video-public-1258344701.shiply-cdn.qq.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/TencentVideo 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/TencentVideo.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN,video-search-1258344701.shiply-cdn.qq.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/TencentVideo 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/TencentVideo.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN,video-vip-1258344701.shiply-cdn.qq.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/TencentVideo 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/TencentVideo.list；共享 CDN 主机收窄为 DOMAIN。"
+        }
+      ],
+      "reviewed_on": "2026-10-06"
     },
     {
       "output": "media/youku.list",
@@ -502,7 +787,34 @@
       "policy": "🦁️[国内]",
       "flags": [
         "extended-matching"
-      ]
+      ],
+      "add": [
+        {
+          "rule": "DOMAIN-SUFFIX,youku.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/Youku 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/Youku.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,ykimg.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/Youku 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/Youku.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,tudou.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/Youku 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/Youku.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,soku.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/Youku 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/Youku.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,kumiao.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/Youku 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/Youku.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,kumiao.tv",
+          "reason": "2026-10-06 审阅 blackmatrix7/Youku 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/Youku.list；共享 CDN 主机收窄为 DOMAIN。"
+        }
+      ],
+      "reviewed_on": "2026-10-06"
     },
     {
       "output": "media/netease-music.list",
@@ -515,7 +827,30 @@
       "policy": "🦁️[国内]",
       "flags": [
         "extended-matching"
-      ]
+      ],
+      "add": [
+        {
+          "rule": "DOMAIN-SUFFIX,music.126.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/NetEaseMusic 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/NetEaseMusic.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,music.126.net",
+          "reason": "2026-10-06 审阅 blackmatrix7/NetEaseMusic 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/NetEaseMusic.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,music.163.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/NetEaseMusic 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/NetEaseMusic.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN-SUFFIX,music.163.com.163jiasu.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/NetEaseMusic 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/NetEaseMusic.list；共享 CDN 主机收窄为 DOMAIN。"
+        },
+        {
+          "rule": "DOMAIN,netease.ugcvideoss.ourdvs.com",
+          "reason": "2026-10-06 审阅 blackmatrix7/NetEaseMusic 专用端点；原始候选见 vendor/blackmatrix7/streaming-20261006/NetEaseMusic.list；共享 CDN 主机收窄为 DOMAIN。"
+        }
+      ],
+      "reviewed_on": "2026-10-06"
     },
     {
       "output": "apps/steam.list",
